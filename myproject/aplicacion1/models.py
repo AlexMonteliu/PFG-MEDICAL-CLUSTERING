@@ -62,5 +62,9 @@ def get_cluster_and_features(transcription):
     predicted_cluster = model.predict(new_tfidf)
     common_specialty = most_common_specialty_per_cluster[int(predicted_cluster[0])]  # Convertir a int
     feature_names = vectorizer.get_feature_names_out()
-    top_features = [feature_names[i] for i in range(min(10, len(keywords)))]
+    
+    # Correcting the extraction of top features
+    top_feature_indices = scores.argsort()[::-1][:10]
+    top_features = [feature_names[i] for i in top_feature_indices]
+    
     return str(predicted_cluster[0]), common_specialty, top_features
