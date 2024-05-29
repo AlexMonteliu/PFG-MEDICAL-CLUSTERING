@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fetchPrediction() {
+            const transcription = document.getElementById('transcription').value;
+            fetch(`/aplicacion1/predict_cluster/?transcription=${encodeURIComponent(transcription)}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        alert(data.error);
+                    } else {
+                        document.getElementById('result').innerText = `Cluster: ${data.cluster}, Common Specialty: ${data.common_specialty}, Top Features: ${data.top_features.join(', ')}`;
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+</head>
+<body>
+    <h1>HOLA MUNDO</h1>
+    <textarea id="transcription" placeholder="Enter your transcription"></textarea>
+    <button onclick="fetchPrediction()">Get Prediction</button>
+    <div id="result"></div>
+</body>
+</html>
