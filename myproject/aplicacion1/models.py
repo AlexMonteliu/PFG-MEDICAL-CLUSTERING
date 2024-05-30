@@ -15,6 +15,7 @@ df = df.drop_duplicates()
 df = df.dropna()
 df['medical_specialty'] = df['medical_specialty'].str.strip().str.lower()
 
+# Eliminar algunas filas de 'surgery' para balancear el dataset
 if 'medical_specialty' in df.columns:
     count_surgery = df[df['medical_specialty'] == 'surgery'].shape[0]
     if count_surgery > 400:
@@ -50,21 +51,18 @@ if 'medical_specialty' in df.columns:
 specialty_to_cluster = df.groupby('medical_specialty')['cluster'].agg(lambda x: [x.mode()[0]]).to_dict()
 
 def extract_keywords(text):
+    text = clean_text(text)
     tfidf_matrix = vectorizer.transform([text])
     feature_names = vectorizer.get_feature_names_out()
     scores = tfidf_matrix.toarray().flatten()
     return feature_names, scores
 
 def get_cluster_and_features(transcription):
-    keywords, scores = extract_keywords(transcription)
-    keywords_str = ', '.join(keywords)
-    new_tfidf = vectorizer.transform([keywords_str])
+    feature_names, scores = extract_keywords(transcription)
+    new_tfidf = vectorizer.transform([transcription])
     predicted_cluster = model.predict(new_tfidf)
     common_specialty = most_common_specialty_per_cluster[int(predicted_cluster[0])]  # Convertir a int
-    feature_names = vectorizer.get_feature_names_out()
-    
-    # Correcting the extraction of top features
+    # Obtener los índices de las 10 características más importantes
     top_feature_indices = scores.argsort()[::-1][:10]
     top_features = [feature_names[i] for i in top_feature_indices]
-    
     return str(predicted_cluster[0]), common_specialty, top_features
