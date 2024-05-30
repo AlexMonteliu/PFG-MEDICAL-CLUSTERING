@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Custom Agency Theme</title>
+        <title>Aplicacion Medica</title>
         {% load static %}
         <link href="{% static 'css/styles.css'%}" rel="stylesheet" />
         <!-- Favicon-->
@@ -29,8 +29,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">prescripcion</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Clusters</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -40,52 +40,73 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead">
-            <div class="container">
-                <div class="masthead-subheading">Welcome To Our Studio!</div>
-                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+            <div class="container" id="containerBienvenida">
+                <div class="masthead-subheading">Bienvenido Doctor:</div>
+                <div class="masthead-heading text-uppercase">Un placer verle de nuevo</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Continuar:</a>
             </div>
         </header>
-        <!-- Services-->
+        <!--REDACTAR PREESCRIPCION:-->
+
+
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Redactar prescripción</h2>
+                    <h3 class="section-subheading text-muted">Introduce tu transcripción médica para obtener la predicción del clúster, especialidad y características principales.</h3>
                 </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <textarea id="transcription" class="form-control" placeholder="Enter your transcription" rows="4"></textarea>
+                        </div>
+                        <div class="form-group text-center">
+                            <button onclick="fetchPrediction()" class="btn btn-primary btn-xl text-uppercase">Get Prediction</button>
+                        </div>
+                        <div id="result" class="alert" role="alert" style="display: none;"></div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Portfolio Grid-->
+    <script>
+        function fetchPrediction() {
+            const transcription = document.getElementById('transcription').value;
+            const resultDiv = document.getElementById('result');
+
+            // Limpiar resultados anteriores
+            resultDiv.style.display = 'none';
+            resultDiv.classList.remove('alert-info', 'alert-danger');
+            resultDiv.innerText = '';
+
+            // Enviar la solicitud
+            fetch(`/aplicacion1/predict_cluster/?transcription=${encodeURIComponent(transcription)}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        resultDiv.classList.add('alert-danger');
+                        resultDiv.innerText = data.error;
+                    } else {
+                        resultDiv.classList.add('alert-info');
+                        resultDiv.innerText = `Cluster: ${data.cluster}, Common Specialty: ${data.common_specialty}, Top Features: ${data.top_features.join(', ')}`;
+                    }
+                    resultDiv.style.display = 'block';
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    resultDiv.classList.add('alert-danger');
+                    resultDiv.innerText = 'An error occurred while fetching the prediction.';
+                    resultDiv.style.display = 'block';
+                });
+        }
+    </script>
+
+
+
+        <!-- ANALISIS DE CLUSTERS-->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
+                    <h2 class="section-heading text-uppercase">Analisi de Clusters</h2>
                    
             </div>
         </section>
