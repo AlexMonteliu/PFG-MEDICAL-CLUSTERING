@@ -29,7 +29,7 @@
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#services">prescripcion</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Clusters</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">Especialidades y Clusters</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Especialidades y cluster</a></li>
                     <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
@@ -119,13 +119,26 @@
         </div>
     </section>
     <!-- Cluster mas comun para cada especialidad -->
-    <section class="page-section" id="about">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Cluster mas comun para cada especialidad</h2>
-            </div>
+  <!-- Especialidades Médicas y sus Clústeres Más Comunes -->
+<section class="page-section bg-light" id="about">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Especialidades Médicas y sus Clústeres Más Comunes</h2>
         </div>
-    </section>
+        <div class="row">
+            {% for specialty, cluster in common_clusters_by_specialty.items %}
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ specialty }}</h5>
+                        <p class="card-text">Cluster Más Común: {{ cluster }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
     <!-- Team -->
     <section class="page-section bg-light" id="team">
         <div class="container">

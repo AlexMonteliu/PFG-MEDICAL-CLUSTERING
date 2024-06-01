@@ -83,3 +83,7 @@ def print_top_features_per_cluster(model, vectorizer, num_features):
         }
     
     return clusters_features
+
+def get_common_clusters_by_specialty(df):
+    common_clusters = df.groupby('medical_specialty')['cluster'].agg(lambda x: x.mode()[0]).to_dict()
+    return common_clusters

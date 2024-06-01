@@ -1,10 +1,11 @@
 from django.http import JsonResponse
 from django.shortcuts import render
-from .models import get_cluster_and_features, print_top_features_per_cluster, model, vectorizer
+from .models import get_cluster_and_features, print_top_features_per_cluster, get_common_clusters_by_specialty, model, vectorizer, df
 
 def hello(request):
     clusters_features = print_top_features_per_cluster(model, vectorizer, 10)
-    return render(request, 'hello.html', {'clusters_features': clusters_features})
+    common_clusters_by_specialty = get_common_clusters_by_specialty(df)
+    return render(request, 'hello.html', {'clusters_features': clusters_features, 'common_clusters_by_specialty': common_clusters_by_specialty})
 
 def predict_cluster(request):
     transcription = request.GET.get('transcription', '')
