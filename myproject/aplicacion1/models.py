@@ -58,11 +58,8 @@ def extract_keywords(text):
     return feature_names, scores
 
 def get_cluster_and_features(transcription):
-    transcription_cleaned = clean_text(transcription)
-    print(f"VALORES DE ENTRADA EN GET CLUSTER_AND FEATURES\n{transcription_cleaned}")
-    
-    feature_names, scores = extract_keywords(transcription_cleaned)
-    new_tfidf = vectorizer.transform([transcription_cleaned])
+    feature_names, scores = extract_keywords(transcription)
+    new_tfidf = vectorizer.transform([transcription])
     predicted_cluster = model.predict(new_tfidf)
     common_specialty = most_common_specialty_per_cluster[int(predicted_cluster[0])]  # Convertir a int
     
@@ -70,6 +67,19 @@ def get_cluster_and_features(transcription):
     top_feature_indices = scores.argsort()[::-1][:10]
     top_features = [feature_names[i] for i in top_feature_indices]
     
-    print(f"VALORES DE SALIDA DE GET_CLUSTER_AND_FEATURES:\n{int(predicted_cluster[0])} {common_specialty} {top_features}")
-
     return str(predicted_cluster[0]), common_specialty, top_features
+
+def print_top_features_per_cluster(model, vectorizer, num_features):
+    order_centroids = model.cluster_centers_.argsort()[:, ::-1]
+    terms = vectorizer.get_feature_names_out()
+    
+    clusters_features = {}
+    for i in range(true_k):
+        cluster_features = [terms[ind] for ind in order_centroids[i, :num_features]]
+        common_specialty = most_common_specialty_per_cluster[i]  # Obtener la especialidad más común
+        clusters_features[i] = {
+            'features': cluster_features,
+            'specialty': common_specialty
+        }
+    
+    return clusters_features
