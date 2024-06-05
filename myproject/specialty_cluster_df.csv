@@ -1,1709 +1,1709 @@
 medical_specialty,cluster
-allergy / immunology,4
-bariatrics,14
-bariatrics,14
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-bariatrics,14
-bariatrics,13
-cardiovascular / pulmonary,1
-bariatrics,4
-cardiovascular / pulmonary,16
-bariatrics,14
-cardiovascular / pulmonary,16
-bariatrics,14
-dentistry,4
-bariatrics,14
-cardiovascular / pulmonary,4
-bariatrics,4
-urology,4
-general medicine,4
-urology,13
-bariatrics,14
-urology,1
-urology,4
-urology,4
-urology,13
-urology,15
-urology,4
-urology,4
-urology,4
-urology,15
-urology,4
-urology,4
-urology,13
-urology,13
-urology,13
-urology,13
-urology,4
-urology,4
-urology,4
-urology,4
-urology,4
-urology,4
-urology,4
-urology,13
-urology,13
-urology,13
-urology,13
-urology,1
-urology,4
-urology,4
-urology,13
-urology,13
-urology,13
-urology,4
-urology,4
-urology,4
-urology,13
-urology,13
-urology,4
-urology,4
-urology,13
-urology,15
-urology,13
-urology,4
-urology,15
-urology,15
-urology,4
-urology,4
-urology,1
-urology,1
-urology,4
-urology,4
-urology,13
-urology,1
-urology,4
-urology,4
-urology,4
-urology,4
-urology,1
-urology,4
-urology,15
-urology,15
-urology,15
-urology,13
-urology,15
-urology,15
-urology,15
-urology,15
-urology,15
-urology,15
-urology,15
-urology,15
-urology,15
-urology,15
-urology,15
-urology,15
-urology,2
-urology,4
+allergy / immunology,11
+bariatrics,11
+bariatrics,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+bariatrics,11
+bariatrics,11
+cardiovascular / pulmonary,14
+bariatrics,11
+cardiovascular / pulmonary,6
+bariatrics,11
+cardiovascular / pulmonary,6
+bariatrics,11
+dentistry,11
+bariatrics,11
+cardiovascular / pulmonary,11
+bariatrics,11
 urology,11
-urology,4
-urology,4
-urology,4
-urology,13
-urology,4
-urology,13
-urology,4
-urology,4
-urology,13
-urology,13
-urology,13
+general medicine,11
+urology,11
+bariatrics,11
+urology,12
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
 urology,1
 urology,1
-urology,4
-urology,4
-urology,4
-urology,4
-urology,13
-urology,13
-urology,13
-urology,4
-urology,4
-urology,13
-urology,13
-urology,13
-urology,13
-urology,4
-urology,13
-urology,13
-urology,13
-urology,4
-urology,13
-urology,4
-urology,1
-urology,4
-urology,4
 urology,1
 urology,1
-urology,13
-urology,4
-urology,4
-urology,4
-urology,4
-urology,4
+urology,14
+urology,11
+urology,11
 urology,1
 urology,1
-urology,4
-urology,4
-urology,13
 urology,1
-urology,4
+urology,11
+urology,11
+urology,11
 urology,1
-urology,13
-urology,13
-urology,13
-urology,13
-urology,13
 urology,1
-urology,4
-urology,15
-surgery,3
-surgery,2
-surgery,2
-surgery,3
-surgery,4
-surgery,3
-surgery,4
-surgery,6
+urology,11
+urology,11
+urology,1
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,14
+urology,14
+urology,11
+urology,11
+urology,1
+urology,14
+urology,11
+urology,11
+urology,11
+urology,11
+urology,14
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,14
+urology,14
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,12
+urology,11
+urology,11
+urology,12
+urology,14
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,12
+urology,12
+urology,11
+urology,11
+urology,11
+urology,12
+urology,11
+urology,12
+urology,11
+urology,11
+urology,11
+urology,11
+urology,11
+urology,14
+urology,11
+urology,11
 surgery,11
-surgery,2
-surgery,11
-surgery,2
-surgery,4
 surgery,11
 surgery,11
 surgery,11
-surgery,4
-surgery,13
-surgery,4
-surgery,4
-surgery,4
-surgery,15
-surgery,1
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,6
-surgery,8
+surgery,11
+surgery,11
 surgery,17
 surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,3
-surgery,17
-surgery,6
-surgery,3
-surgery,4
-surgery,3
-surgery,6
-surgery,6
-surgery,4
-surgery,2
-surgery,15
-surgery,3
-surgery,15
-surgery,2
-surgery,4
-surgery,4
-surgery,4
-surgery,15
-surgery,15
-surgery,13
-surgery,4
-surgery,3
-surgery,3
-surgery,3
-surgery,13
-surgery,16
-surgery,3
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,13
-surgery,1
-surgery,4
-surgery,8
-surgery,16
-surgery,4
-surgery,8
-surgery,1
-surgery,16
-surgery,0
-surgery,4
-surgery,4
-surgery,4
 surgery,11
-surgery,2
-surgery,4
-surgery,13
 surgery,11
-surgery,4
-surgery,17
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
 surgery,8
-surgery,15
-surgery,4
-surgery,13
-surgery,4
-surgery,4
-surgery,2
-surgery,4
-surgery,15
-surgery,4
-surgery,15
-surgery,15
-surgery,15
-surgery,2
-surgery,2
-surgery,15
-surgery,15
-surgery,15
-surgery,1
-surgery,15
-surgery,15
-surgery,15
-surgery,8
-surgery,15
-surgery,15
-surgery,15
-surgery,15
-surgery,15
-surgery,2
-surgery,4
-surgery,15
-surgery,4
-surgery,4
-surgery,15
-surgery,1
-surgery,4
-surgery,4
-surgery,0
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
 surgery,6
-surgery,4
-surgery,0
-surgery,15
-surgery,15
-surgery,15
-surgery,15
-surgery,5
-surgery,15
-surgery,5
-surgery,15
-surgery,13
-surgery,15
-surgery,4
 surgery,11
-surgery,15
-surgery,15
-surgery,4
-surgery,15
-surgery,15
-surgery,15
-surgery,2
-surgery,1
-surgery,15
-surgery,15
-surgery,15
-surgery,4
+surgery,11
+surgery,6
+surgery,6
+surgery,6
+surgery,6
+surgery,6
+surgery,6
+surgery,6
+surgery,6
+surgery,6
+surgery,6
+surgery,6
 surgery,9
-surgery,4
-surgery,4
-surgery,0
-surgery,17
-surgery,17
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,4
 surgery,11
-surgery,4
-surgery,4
-surgery,1
-surgery,4
-surgery,3
-surgery,11
-surgery,11
-surgery,4
-surgery,4
-surgery,17
-surgery,1
-surgery,1
-surgery,1
-surgery,1
-surgery,1
-surgery,1
-surgery,1
-surgery,1
-surgery,17
-surgery,1
-surgery,3
-surgery,11
-surgery,4
-surgery,4
-surgery,11
-surgery,4
-surgery,11
-surgery,5
-surgery,4
-surgery,11
-surgery,11
-surgery,11
-surgery,13
-surgery,11
-surgery,13
-surgery,13
-surgery,4
-surgery,13
-surgery,13
-surgery,1
-surgery,13
-surgery,4
-surgery,4
-surgery,4
-surgery,13
-surgery,13
-surgery,4
-surgery,4
-surgery,10
-surgery,13
-surgery,11
-surgery,4
-surgery,10
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,13
-surgery,4
-surgery,4
-surgery,4
-surgery,4
 surgery,6
-surgery,4
-surgery,3
-surgery,4
-surgery,4
-surgery,13
-surgery,8
-surgery,4
-surgery,4
-surgery,8
-surgery,8
-surgery,8
-surgery,8
-surgery,8
-surgery,8
-surgery,1
-surgery,8
-surgery,8
-surgery,8
-surgery,8
-surgery,8
-surgery,8
-surgery,8
-surgery,8
-surgery,8
-surgery,8
-surgery,8
-surgery,8
-surgery,8
-surgery,8
-surgery,4
-surgery,1
-surgery,8
-surgery,8
-surgery,8
-surgery,8
-surgery,15
-surgery,8
-surgery,8
-surgery,3
+surgery,11
+surgery,11
+surgery,11
+surgery,6
+surgery,6
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,17
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,14
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,14
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,14
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,14
+surgery,11
+surgery,11
+surgery,11
+surgery,6
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
 surgery,16
-surgery,4
-surgery,8
-surgery,4
-surgery,8
-surgery,4
-surgery,4
-surgery,3
-surgery,1
-surgery,3
-surgery,3
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,1
-surgery,4
-surgery,1
-surgery,1
-surgery,1
-surgery,6
-surgery,6
-surgery,1
-surgery,4
-surgery,4
-surgery,4
-surgery,14
-surgery,14
-surgery,4
-surgery,2
-surgery,14
-surgery,2
-surgery,2
-surgery,2
-surgery,2
-surgery,2
-surgery,2
 surgery,11
-surgery,4
-surgery,4
 surgery,16
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,1
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,14
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,14
+surgery,17
+surgery,11
+surgery,11
+surgery,11
+surgery,17
+surgery,17
+surgery,11
+surgery,14
+surgery,14
+surgery,14
+surgery,14
+surgery,14
+surgery,14
+surgery,14
+surgery,14
+surgery,11
+surgery,14
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,16
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,12
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,7
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,6
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,14
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,14
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,6
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,14
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,12
+surgery,11
 surgery,12
 surgery,12
-surgery,5
-surgery,17
 surgery,12
+surgery,6
+surgery,6
 surgery,12
-surgery,5
-surgery,5
-surgery,5
-surgery,5
-surgery,5
-surgery,5
-surgery,5
-surgery,5
-surgery,5
-surgery,5
-surgery,5
-surgery,6
-surgery,5
-surgery,5
-surgery,4
-surgery,4
-surgery,16
-surgery,16
-surgery,6
-surgery,6
-surgery,4
-surgery,5
-surgery,16
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,3
-surgery,13
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,6
-surgery,1
-surgery,3
-surgery,3
-surgery,3
-surgery,4
-surgery,13
-surgery,3
-surgery,17
-surgery,4
-surgery,4
-surgery,4
-surgery,2
-surgery,2
-surgery,4
-surgery,4
-surgery,4
-surgery,2
-surgery,2
-surgery,16
-surgery,4
-surgery,4
-surgery,13
-surgery,1
-surgery,4
-surgery,1
-surgery,13
-surgery,4
-surgery,13
-surgery,15
-surgery,13
-surgery,13
-surgery,13
-surgery,13
-surgery,13
-surgery,9
-surgery,3
-surgery,4
-surgery,9
-surgery,4
-surgery,1
-surgery,4
-surgery,4
-surgery,4
-surgery,4
-surgery,13
-surgery,4
-surgery,13
-surgery,13
-surgery,1
-surgery,13
-surgery,4
-surgery,1
-surgery,4
-surgery,4
 surgery,11
-surgery,9
-surgery,4
-surgery,15
-surgery,4
-surgery,9
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,14
+surgery,11
+surgery,11
+surgery,16
+surgery,11
+surgery,11
+surgery,11
+surgery,16
+surgery,16
+surgery,16
+surgery,16
+surgery,16
+surgery,16
+surgery,16
+surgery,16
+surgery,16
+surgery,16
+surgery,16
 surgery,6
-surgery,17
-surgery,4
-surgery,4
-surgery,4
-surgery,13
-surgery,13
-surgery,13
-surgery,4
-surgery,4
+surgery,16
+surgery,16
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,6
+surgery,6
+surgery,11
+surgery,16
+surgery,6
+surgery,6
+surgery,6
+surgery,6
+surgery,6
+surgery,6
+surgery,3
+surgery,6
+surgery,6
+surgery,6
+surgery,11
+surgery,11
+surgery,6
+surgery,6
+surgery,6
+surgery,6
+surgery,6
+surgery,6
+surgery,14
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,6
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,14
+surgery,11
+surgery,14
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,14
+surgery,11
+surgery,11
+surgery,11
+surgery,11
 surgery,2
-surgery,4
-surgery,4
-surgery,4
-surgery,3
-surgery,4
-surgery,4
-surgery,3
-surgery,3
-surgery,17
-surgery,4
+surgery,11
+surgery,11
+surgery,2
+surgery,14
+surgery,11
+surgery,11
+surgery,14
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,6
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,6
+surgery,11
+surgery,6
+surgery,11
+surgery,11
+surgery,11
+surgery,11
 surgery,15
-surgery,17
-surgery,17
-surgery,17
-surgery,17
-surgery,17
-surgery,17
-surgery,17
-surgery,17
-surgery,17
-surgery,17
-surgery,4
-surgery,17
-surgery,17
-surgery,17
-surgery,17
-surgery,14
-surgery,17
-surgery,14
-surgery,4
-surgery,4
-surgery,4
-surgery,4
+surgery,15
+surgery,11
+surgery,11
+surgery,13
+surgery,13
+surgery,15
+surgery,13
+surgery,13
+surgery,13
+surgery,15
+surgery,13
+surgery,13
+surgery,13
+surgery,13
+surgery,13
+surgery,13
+surgery,13
+surgery,13
+surgery,13
+surgery,13
+surgery,13
 surgery,6
-surgery,17
-surgery,6
+surgery,11
+surgery,11
 surgery,14
-surgery,4
-surgery,4
-surgery,4
-surgery,7
-surgery,7
+surgery,11
+surgery,14
+surgery,14
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
+surgery,11
 surgery,0
-surgery,17
-surgery,7
-surgery,7
-surgery,7
-surgery,7
-surgery,7
-surgery,7
-surgery,7
-surgery,7
-surgery,7
-surgery,7
-surgery,7
-surgery,7
-surgery,7
-surgery,7
-surgery,7
-surgery,7
-surgery,7
-surgery,7
-surgery,6
-surgery,4
-surgery,4
-surgery,1
-surgery,15
-surgery,1
-surgery,1
-surgery,4
-surgery,17
-surgery,4
-surgery,17
-surgery,4
-surgery,15
-surgery,4
-surgery,2
-speech - language,1
-speech - language,4
-speech - language,1
-speech - language,4
-surgery,4
-speech - language,4
-speech - language,4
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-speech - language,4
-speech - language,4
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,2
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
+surgery,11
+speech - language,14
+speech - language,11
+speech - language,14
+speech - language,11
+surgery,11
+speech - language,11
+speech - language,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+speech - language,11
+speech - language,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,6
+soap / chart / progress notes,11
+soap / chart / progress notes,6
 soap / chart / progress notes,16
-soap / chart / progress notes,17
-soap / chart / progress notes,5
-soap / chart / progress notes,16
-soap / chart / progress notes,5
-soap / chart / progress notes,13
-soap / chart / progress notes,13
-soap / chart / progress notes,13
-soap / chart / progress notes,13
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,13
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,3
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,6
+soap / chart / progress notes,11
 soap / chart / progress notes,1
 soap / chart / progress notes,1
-soap / chart / progress notes,5
 soap / chart / progress notes,1
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,13
 soap / chart / progress notes,1
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,13
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
 soap / chart / progress notes,4
-soap / chart / progress notes,5
-soap / chart / progress notes,5
+soap / chart / progress notes,12
 soap / chart / progress notes,14
-soap / chart / progress notes,3
-soap / chart / progress notes,1
-soap / chart / progress notes,3
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,13
-soap / chart / progress notes,5
+soap / chart / progress notes,11
+soap / chart / progress notes,14
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,14
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,6
 soap / chart / progress notes,5
 soap / chart / progress notes,11
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,7
-soap / chart / progress notes,5
-soap / chart / progress notes,1
-soap / chart / progress notes,1
-soap / chart / progress notes,5
-soap / chart / progress notes,5
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,14
 soap / chart / progress notes,4
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,16
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
 soap / chart / progress notes,13
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-sleep medicine,1
-soap / chart / progress notes,5
-soap / chart / progress notes,5
-sleep medicine,1
-sleep medicine,4
-sleep medicine,4
-sleep medicine,1
-sleep medicine,4
-sleep medicine,4
-sleep medicine,4
-sleep medicine,4
-sleep medicine,4
-sleep medicine,4
-sleep medicine,1
-sleep medicine,4
-sleep medicine,4
-sleep medicine,1
-sleep medicine,1
-sleep medicine,4
-rheumatology,4
-sleep medicine,4
-rheumatology,4
-rheumatology,4
-rheumatology,4
-rheumatology,4
-rheumatology,4
-radiology,4
-radiology,4
-rheumatology,4
-radiology,13
+soap / chart / progress notes,11
+soap / chart / progress notes,14
+soap / chart / progress notes,14
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,6
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,6
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+sleep medicine,14
+soap / chart / progress notes,11
+soap / chart / progress notes,11
+sleep medicine,14
+sleep medicine,11
+sleep medicine,11
+sleep medicine,14
+sleep medicine,11
+sleep medicine,11
+sleep medicine,11
+sleep medicine,11
+sleep medicine,11
+sleep medicine,11
+sleep medicine,14
+sleep medicine,11
+sleep medicine,11
+sleep medicine,14
+sleep medicine,14
+sleep medicine,11
+rheumatology,11
+sleep medicine,11
+rheumatology,11
+rheumatology,11
+rheumatology,11
+rheumatology,11
+rheumatology,11
+radiology,11
+radiology,11
+rheumatology,11
 radiology,11
 radiology,11
 radiology,11
 radiology,11
 radiology,11
 radiology,11
-radiology,4
-radiology,4
-radiology,4
-radiology,4
 radiology,11
-radiology,4
-radiology,16
-radiology,16
-radiology,4
-radiology,16
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
 radiology,6
-radiology,10
-radiology,16
-radiology,16
-radiology,4
-radiology,0
-radiology,16
-radiology,16
-radiology,3
-radiology,3
-radiology,3
-radiology,16
-radiology,16
-radiology,16
-radiology,16
-radiology,16
-radiology,4
-radiology,16
-radiology,4
-radiology,16
-radiology,4
-radiology,0
-radiology,13
-radiology,16
-radiology,0
-radiology,4
-radiology,0
-radiology,0
-radiology,1
-radiology,3
-radiology,4
-radiology,13
-radiology,16
-radiology,10
-radiology,4
-radiology,0
-radiology,16
-radiology,16
-radiology,16
-radiology,17
-radiology,4
-radiology,4
-radiology,16
-radiology,4
-radiology,4
-radiology,17
-radiology,17
-radiology,17
-radiology,17
-radiology,1
-radiology,10
-radiology,10
-radiology,4
-radiology,4
-radiology,17
-radiology,4
-radiology,0
-radiology,17
-radiology,17
-radiology,17
-radiology,17
-radiology,4
-radiology,17
-radiology,17
-radiology,4
-radiology,17
-radiology,17
-radiology,0
-radiology,4
-radiology,17
-radiology,17
-radiology,0
-radiology,4
-radiology,4
-radiology,4
-radiology,4
-radiology,13
-radiology,4
-radiology,4
-radiology,4
-radiology,4
-radiology,4
-radiology,4
-radiology,4
-radiology,4
-radiology,4
-radiology,4
-radiology,4
-radiology,3
-radiology,4
-radiology,16
-radiology,4
-radiology,16
-radiology,16
-radiology,4
-radiology,0
-radiology,16
-radiology,4
-radiology,2
-radiology,4
-radiology,4
+radiology,6
+radiology,11
+radiology,6
+radiology,6
+radiology,7
+radiology,11
+radiology,6
+radiology,11
+radiology,11
+radiology,6
+radiology,6
+radiology,11
+radiology,11
+radiology,11
+radiology,6
+radiology,6
+radiology,6
+radiology,6
+radiology,6
+radiology,11
+radiology,6
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,6
+radiology,11
+radiology,11
+radiology,11
+radiology,11
 radiology,14
-radiology,4
-radiology,1
-radiology,4
-radiology,1
-radiology,13
-radiology,1
-radiology,4
-radiology,1
-radiology,13
-radiology,0
-radiology,4
-radiology,16
-radiology,1
-radiology,0
 radiology,11
-radiology,0
-radiology,1
-radiology,0
-radiology,0
-radiology,0
-radiology,0
-radiology,0
-radiology,4
-radiology,16
-radiology,4
-radiology,0
-radiology,16
-radiology,0
-radiology,16
-radiology,4
-radiology,16
-radiology,16
-radiology,4
-radiology,16
-radiology,6
-radiology,4
-radiology,4
-radiology,10
-radiology,10
-radiology,4
-radiology,16
-radiology,10
-radiology,10
-radiology,10
-radiology,10
+radiology,11
 radiology,2
-radiology,10
-radiology,10
-radiology,10
-radiology,4
-radiology,4
-radiology,0
-radiology,10
-radiology,10
-radiology,10
-radiology,10
-radiology,10
-radiology,10
-radiology,0
-radiology,10
-radiology,10
-radiology,10
-radiology,10
-radiology,10
-radiology,10
-radiology,10
-radiology,10
-radiology,10
-radiology,10
-radiology,4
-radiology,16
-radiology,4
-radiology,2
-radiology,4
-radiology,4
-radiology,4
-radiology,4
-radiology,4
-radiology,10
-radiology,10
-radiology,10
-radiology,2
-radiology,10
-radiology,10
-radiology,10
-radiology,4
-radiology,10
-radiology,10
-radiology,10
-radiology,10
-radiology,10
-radiology,4
-radiology,10
-radiology,10
-radiology,6
-radiology,6
-radiology,1
 radiology,6
 radiology,2
-radiology,4
-radiology,4
-radiology,6
-radiology,2
-radiology,4
-radiology,1
-radiology,16
-radiology,6
-radiology,16
+radiology,11
+radiology,11
 radiology,6
 radiology,6
-radiology,4
 radiology,6
 radiology,11
-radiology,13
-radiology,4
-radiology,4
-radiology,4
-radiology,4
-radiology,4
+radiology,11
+radiology,11
 radiology,6
-radiology,4
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,14
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,6
+radiology,11
+radiology,6
+radiology,6
+radiology,11
+radiology,11
+radiology,6
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,14
+radiology,11
+radiology,14
+radiology,11
+radiology,14
+radiology,11
+radiology,14
+radiology,11
+radiology,11
+radiology,11
+radiology,6
+radiology,14
 radiology,16
-radiology,4
-radiology,4
-radiology,16
-radiology,1
-radiology,1
-radiology,16
-psychiatry / psychology,4
-radiology,16
-psychiatry / psychology,4
-radiology,16
-psychiatry / psychology,4
-psychiatry / psychology,4
-psychiatry / psychology,4
-psychiatry / psychology,4
-psychiatry / psychology,4
-psychiatry / psychology,4
-psychiatry / psychology,4
-psychiatry / psychology,4
-psychiatry / psychology,4
-psychiatry / psychology,4
-psychiatry / psychology,4
-psychiatry / psychology,4
-psychiatry / psychology,4
-psychiatry / psychology,4
-podiatry,3
-podiatry,3
-psychiatry / psychology,4
-podiatry,3
-psychiatry / psychology,4
-podiatry,3
-podiatry,3
-podiatry,5
-psychiatry / psychology,4
-podiatry,4
-podiatry,3
-podiatry,3
-podiatry,3
-podiatry,4
-podiatry,17
-podiatry,4
-podiatry,17
-podiatry,4
-podiatry,3
-podiatry,4
-podiatry,3
-podiatry,3
-podiatry,3
-podiatry,3
-podiatry,3
-podiatry,3
-podiatry,3
-podiatry,3
-podiatry,3
-podiatry,3
-podiatry,4
-podiatry,3
-podiatry,4
-podiatry,3
-podiatry,3
-podiatry,17
-podiatry,3
-podiatry,3
-podiatry,4
-podiatry,17
-podiatry,3
-podiatry,3
-podiatry,3
-podiatry,3
-podiatry,17
-physical medicine - rehab,4
-physical medicine - rehab,4
-physical medicine - rehab,0
-physical medicine - rehab,0
-physical medicine - rehab,0
-physical medicine - rehab,0
-physical medicine - rehab,0
-physical medicine - rehab,0
-pediatrics - neonatal,4
-physical medicine - rehab,0
-physical medicine - rehab,0
-physical medicine - rehab,0
-pediatrics - neonatal,4
-pediatrics - neonatal,4
-pediatrics - neonatal,4
-pediatrics - neonatal,9
-pediatrics - neonatal,9
-pediatrics - neonatal,4
-pediatrics - neonatal,4
-pediatrics - neonatal,16
-pediatrics - neonatal,4
-pediatrics - neonatal,4
-pediatrics - neonatal,16
-pediatrics - neonatal,4
-pediatrics - neonatal,4
-pediatrics - neonatal,4
-pediatrics - neonatal,4
-pediatrics - neonatal,4
-pediatrics - neonatal,4
-pediatrics - neonatal,4
-pediatrics - neonatal,9
-pediatrics - neonatal,4
-pediatrics - neonatal,4
-pediatrics - neonatal,4
-pediatrics - neonatal,4
+radiology,11
+radiology,11
+radiology,14
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,6
+radiology,11
+radiology,11
+radiology,6
+radiology,11
+radiology,6
+radiology,11
+radiology,6
+radiology,6
+radiology,11
+radiology,6
+radiology,6
+radiology,11
+radiology,11
+radiology,7
+radiology,11
+radiology,11
+radiology,6
+radiology,11
+radiology,7
+radiology,7
+radiology,7
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,7
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,2
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,7
+radiology,7
+radiology,7
+radiology,6
+radiology,7
+radiology,6
+radiology,7
+radiology,11
+radiology,7
+radiology,7
+radiology,7
+radiology,7
+radiology,7
+radiology,11
+radiology,7
+radiology,7
+radiology,6
+radiology,6
+radiology,14
+radiology,6
+radiology,11
+radiology,11
+radiology,11
+radiology,6
+radiology,6
+radiology,11
+radiology,14
+radiology,6
+radiology,6
+radiology,6
+radiology,6
+radiology,6
+radiology,11
+radiology,3
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,11
+radiology,6
+radiology,11
+radiology,6
+radiology,11
+radiology,11
+radiology,6
+radiology,14
+radiology,14
+radiology,6
+psychiatry / psychology,11
+radiology,6
+psychiatry / psychology,11
+radiology,6
+psychiatry / psychology,11
+psychiatry / psychology,11
+psychiatry / psychology,11
+psychiatry / psychology,11
+psychiatry / psychology,11
+psychiatry / psychology,11
+psychiatry / psychology,11
+psychiatry / psychology,11
+psychiatry / psychology,11
+psychiatry / psychology,11
+psychiatry / psychology,11
+psychiatry / psychology,11
+psychiatry / psychology,11
+psychiatry / psychology,11
+podiatry,11
+podiatry,11
+psychiatry / psychology,11
+podiatry,11
+psychiatry / psychology,11
+podiatry,11
+podiatry,11
+podiatry,11
+psychiatry / psychology,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+podiatry,11
+physical medicine - rehab,11
+physical medicine - rehab,11
+physical medicine - rehab,11
+physical medicine - rehab,11
+physical medicine - rehab,11
+physical medicine - rehab,11
+physical medicine - rehab,16
+physical medicine - rehab,11
+pediatrics - neonatal,11
+physical medicine - rehab,11
+physical medicine - rehab,11
+physical medicine - rehab,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
 pediatrics - neonatal,6
-pediatrics - neonatal,4
-pediatrics - neonatal,2
-pediatrics - neonatal,4
-pediatrics - neonatal,15
-pediatrics - neonatal,4
-pediatrics - neonatal,2
-pediatrics - neonatal,4
-pediatrics - neonatal,2
-pediatrics - neonatal,4
-pediatrics - neonatal,4
-pediatrics - neonatal,4
-pediatrics - neonatal,1
-pediatrics - neonatal,9
-pediatrics - neonatal,4
-pediatrics - neonatal,2
-pediatrics - neonatal,4
-pain management,0
-pain management,0
-pain management,0
-pain management,5
-pain management,0
-pediatrics - neonatal,1
-pain management,4
-pain management,17
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,1
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,1
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,1
-pain management,4
-pain management,0
-pain management,1
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,1
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,1
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,0
-pain management,1
-pain management,0
-pain management,1
-orthopedic,3
-pain management,1
-pain management,1
-orthopedic,3
-orthopedic,4
-orthopedic,4
-orthopedic,0
-orthopedic,4
-orthopedic,5
-orthopedic,4
-orthopedic,4
-orthopedic,5
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,4
-orthopedic,17
-orthopedic,0
-orthopedic,17
-orthopedic,4
-orthopedic,17
-orthopedic,4
-orthopedic,17
-orthopedic,0
-orthopedic,17
-orthopedic,4
-orthopedic,3
-orthopedic,3
-orthopedic,5
-orthopedic,3
-orthopedic,3
-orthopedic,3
-orthopedic,17
-orthopedic,4
-orthopedic,4
-orthopedic,7
-orthopedic,4
-orthopedic,5
-orthopedic,4
-orthopedic,17
-orthopedic,4
-orthopedic,4
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,3
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,4
-orthopedic,4
-orthopedic,7
-orthopedic,4
-orthopedic,0
-orthopedic,3
-orthopedic,0
-orthopedic,3
-orthopedic,4
-orthopedic,3
-orthopedic,17
-orthopedic,1
-orthopedic,4
-orthopedic,17
-orthopedic,5
-orthopedic,4
-orthopedic,0
-orthopedic,3
-orthopedic,4
-orthopedic,4
-orthopedic,0
-orthopedic,0
-orthopedic,0
-orthopedic,0
-orthopedic,3
-orthopedic,1
-orthopedic,3
-orthopedic,3
-orthopedic,3
-orthopedic,0
-orthopedic,3
-orthopedic,3
-orthopedic,3
-orthopedic,3
-orthopedic,3
-orthopedic,3
-orthopedic,3
-orthopedic,5
-orthopedic,4
-orthopedic,17
-orthopedic,3
-orthopedic,0
-orthopedic,4
-orthopedic,3
-orthopedic,7
-orthopedic,17
-orthopedic,4
-orthopedic,4
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,1
-orthopedic,10
-orthopedic,4
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,0
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,4
-orthopedic,17
-orthopedic,17
-orthopedic,4
-orthopedic,4
-orthopedic,17
-orthopedic,0
-orthopedic,3
-orthopedic,0
-orthopedic,4
-orthopedic,3
-orthopedic,4
-orthopedic,0
-orthopedic,0
-orthopedic,4
-orthopedic,0
-orthopedic,0
-orthopedic,0
-orthopedic,0
-orthopedic,0
-orthopedic,0
-orthopedic,0
-orthopedic,0
-orthopedic,17
-orthopedic,3
-orthopedic,4
-orthopedic,17
-orthopedic,0
-orthopedic,4
-orthopedic,0
-orthopedic,4
-orthopedic,0
-orthopedic,4
-orthopedic,17
-orthopedic,0
-orthopedic,4
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,1
-orthopedic,17
-orthopedic,17
-orthopedic,3
-orthopedic,17
-orthopedic,17
-orthopedic,3
-orthopedic,4
-orthopedic,17
-orthopedic,3
-orthopedic,3
-orthopedic,0
-orthopedic,3
-orthopedic,4
-orthopedic,17
-orthopedic,4
-orthopedic,4
-orthopedic,4
-orthopedic,4
-orthopedic,4
-orthopedic,0
-orthopedic,3
-orthopedic,3
-orthopedic,17
-orthopedic,3
-orthopedic,4
-orthopedic,3
-orthopedic,3
-orthopedic,3
-orthopedic,4
-orthopedic,5
-orthopedic,4
-orthopedic,5
-orthopedic,17
-orthopedic,4
-orthopedic,5
-orthopedic,3
-orthopedic,4
-orthopedic,17
-orthopedic,17
-orthopedic,4
-orthopedic,4
-orthopedic,4
-orthopedic,0
-orthopedic,4
-orthopedic,4
-orthopedic,4
-orthopedic,4
-orthopedic,17
-orthopedic,17
-orthopedic,5
-orthopedic,4
-orthopedic,10
-orthopedic,10
-orthopedic,0
-orthopedic,0
-orthopedic,4
-orthopedic,10
-orthopedic,10
-orthopedic,10
-orthopedic,10
-orthopedic,0
-orthopedic,3
-orthopedic,4
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,12
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pediatrics - neonatal,11
+pain management,11
+pain management,11
+pain management,11
+pain management,16
+pain management,11
+pediatrics - neonatal,14
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,14
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,14
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,14
+pain management,11
+pain management,11
+pain management,14
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,14
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,14
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,11
+pain management,14
+pain management,11
+pain management,14
+orthopedic,11
+pain management,14
+pain management,14
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,16
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,16
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,13
+orthopedic,11
+orthopedic,16
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,13
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
 orthopedic,14
-orthopedic,10
-orthopedic,10
-orthopedic,3
-orthopedic,3
-orthopedic,7
-orthopedic,3
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,14
+orthopedic,11
+orthopedic,11
+orthopedic,17
+orthopedic,11
+orthopedic,11
+orthopedic,11
 orthopedic,4
-orthopedic,3
-orthopedic,5
-orthopedic,17
-orthopedic,5
-orthopedic,5
-orthopedic,5
-orthopedic,5
-orthopedic,5
-orthopedic,5
-orthopedic,5
-orthopedic,5
-orthopedic,5
-orthopedic,5
-orthopedic,5
-orthopedic,5
-orthopedic,3
-orthopedic,5
-orthopedic,3
-orthopedic,3
-orthopedic,5
-orthopedic,3
-orthopedic,17
-orthopedic,3
-orthopedic,3
-orthopedic,0
-orthopedic,3
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,16
+orthopedic,11
+orthopedic,11
 orthopedic,4
-orthopedic,0
-orthopedic,17
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,13
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,14
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,14
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,9
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,16
+orthopedic,11
+orthopedic,11
+orthopedic,16
 orthopedic,4
-orthopedic,17
-orthopedic,3
-orthopedic,17
-orthopedic,17
-orthopedic,3
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,4
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,17
-orthopedic,0
-orthopedic,17
-orthopedic,7
-orthopedic,4
-orthopedic,4
-orthopedic,17
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,7
-orthopedic,17
-orthopedic,7
-orthopedic,7
-orthopedic,4
-orthopedic,17
-ophthalmology,4
-orthopedic,17
-ophthalmology,4
-ophthalmology,4
-ophthalmology,1
-ophthalmology,4
-ophthalmology,1
-ophthalmology,4
-ophthalmology,4
-ophthalmology,4
-ophthalmology,1
-ophthalmology,1
-ophthalmology,4
-ophthalmology,4
-ophthalmology,1
-ophthalmology,4
-ophthalmology,1
-ophthalmology,4
-ophthalmology,4
-ophthalmology,4
-ophthalmology,4
-ophthalmology,4
-ophthalmology,4
-ophthalmology,4
-ophthalmology,4
-ophthalmology,4
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,16
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,13
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,16
+orthopedic,11
+orthopedic,16
+orthopedic,16
+orthopedic,16
+orthopedic,16
+orthopedic,16
+orthopedic,16
+orthopedic,16
+orthopedic,16
+orthopedic,16
+orthopedic,16
+orthopedic,16
+orthopedic,16
+orthopedic,11
+orthopedic,16
+orthopedic,11
+orthopedic,11
+orthopedic,16
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,15
+orthopedic,11
+orthopedic,11
+orthopedic,11
+orthopedic,15
+orthopedic,15
+orthopedic,13
+orthopedic,13
+orthopedic,13
+orthopedic,15
+orthopedic,13
+orthopedic,15
+orthopedic,13
+orthopedic,13
+orthopedic,13
+orthopedic,13
+orthopedic,13
+orthopedic,13
+orthopedic,13
+orthopedic,13
+orthopedic,13
+orthopedic,13
+orthopedic,11
+orthopedic,13
+orthopedic,13
+orthopedic,11
+orthopedic,11
+ophthalmology,11
+orthopedic,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,14
+ophthalmology,11
+ophthalmology,14
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,14
+ophthalmology,14
+ophthalmology,11
+ophthalmology,11
+ophthalmology,14
+ophthalmology,11
+ophthalmology,14
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,14
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
 ophthalmology,12
-ophthalmology,1
-ophthalmology,12
-ophthalmology,12
-ophthalmology,12
-ophthalmology,12
-ophthalmology,12
-ophthalmology,12
-ophthalmology,12
-ophthalmology,12
-ophthalmology,12
-ophthalmology,12
-ophthalmology,12
-ophthalmology,12
-ophthalmology,12
-ophthalmology,12
-ophthalmology,12
-ophthalmology,12
-ophthalmology,12
-ophthalmology,1
-ophthalmology,12
-ophthalmology,4
-ophthalmology,4
-ophthalmology,4
-ophthalmology,4
-ophthalmology,4
-ophthalmology,12
-ophthalmology,4
-ophthalmology,1
-ophthalmology,4
-ophthalmology,4
-ophthalmology,4
-ophthalmology,1
-ophthalmology,12
-ophthalmology,13
-ophthalmology,12
-ophthalmology,4
-ophthalmology,1
-ophthalmology,4
-ophthalmology,1
-ophthalmology,12
-ophthalmology,12
-ophthalmology,4
-ophthalmology,12
-ophthalmology,12
-ophthalmology,4
-ophthalmology,4
-ophthalmology,4
-ophthalmology,1
-ophthalmology,13
-ophthalmology,1
-ophthalmology,4
-ophthalmology,4
-ophthalmology,1
-office notes,4
-office notes,4
-office notes,4
-office notes,4
-office notes,17
-office notes,1
-office notes,1
-office notes,4
-office notes,4
-office notes,4
-office notes,1
-office notes,1
-office notes,4
-office notes,4
-office notes,4
-office notes,4
-office notes,4
-office notes,4
-office notes,4
-office notes,4
-office notes,4
-office notes,4
-office notes,4
-office notes,4
-office notes,4
-office notes,4
-office notes,4
-office notes,4
-office notes,4
-office notes,1
-office notes,4
-office notes,4
-office notes,0
-office notes,4
-office notes,4
-office notes,13
-office notes,16
-office notes,4
-office notes,4
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,14
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,14
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,14
+ophthalmology,11
+ophthalmology,14
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,11
+ophthalmology,14
+ophthalmology,11
+ophthalmology,14
+ophthalmology,11
+ophthalmology,11
+ophthalmology,14
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,14
+office notes,14
+office notes,11
+office notes,11
+office notes,11
+office notes,14
+office notes,14
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,14
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
+office notes,11
 office notes,6
 office notes,11
-office notes,4
-office notes,16
+office notes,11
+office notes,6
+office notes,11
+office notes,11
+office notes,6
 obstetrics / gynecology,11
-office notes,4
+office notes,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
@@ -1717,44 +1717,34 @@ obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,1
+obstetrics / gynecology,12
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,13
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,4
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,4
 obstetrics / gynecology,11
-obstetrics / gynecology,4
 obstetrics / gynecology,11
-obstetrics / gynecology,13
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,4
-obstetrics / gynecology,13
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,4
-obstetrics / gynecology,1
-obstetrics / gynecology,13
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,13
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
+obstetrics / gynecology,14
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
@@ -1762,7 +1752,6 @@ obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,4
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
@@ -1782,1618 +1771,1629 @@ obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,4
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,13
-obstetrics / gynecology,13
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,4
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,1
-obstetrics / gynecology,1
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,1
-obstetrics / gynecology,1
-obstetrics / gynecology,1
-obstetrics / gynecology,1
-obstetrics / gynecology,1
 obstetrics / gynecology,11
-obstetrics / gynecology,1
-obstetrics / gynecology,1
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,1
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,10
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
 obstetrics / gynecology,11
-obstetrics / gynecology,13
-obstetrics / gynecology,13
-obstetrics / gynecology,13
+obstetrics / gynecology,14
+obstetrics / gynecology,14
 obstetrics / gynecology,11
-obstetrics / gynecology,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-obstetrics / gynecology,13
 obstetrics / gynecology,11
-neurosurgery,4
-neurosurgery,4
+obstetrics / gynecology,14
+obstetrics / gynecology,14
+obstetrics / gynecology,14
+obstetrics / gynecology,14
+obstetrics / gynecology,14
 obstetrics / gynecology,11
+obstetrics / gynecology,14
+obstetrics / gynecology,14
 obstetrics / gynecology,11
-neurosurgery,4
-obstetrics / gynecology,13
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
+obstetrics / gynecology,11
+obstetrics / gynecology,14
+obstetrics / gynecology,11
+obstetrics / gynecology,11
+obstetrics / gynecology,11
+obstetrics / gynecology,11
+obstetrics / gynecology,7
+obstetrics / gynecology,11
+obstetrics / gynecology,11
+obstetrics / gynecology,11
+obstetrics / gynecology,11
+obstetrics / gynecology,11
+obstetrics / gynecology,11
+obstetrics / gynecology,11
+obstetrics / gynecology,11
+obstetrics / gynecology,11
+obstetrics / gynecology,11
+obstetrics / gynecology,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+obstetrics / gynecology,11
+obstetrics / gynecology,11
+neurosurgery,11
+neurosurgery,11
+obstetrics / gynecology,11
+obstetrics / gynecology,11
+neurosurgery,11
+obstetrics / gynecology,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
 neurosurgery,13
-neurosurgery,4
-neurosurgery,4
-neurosurgery,7
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,7
-neurosurgery,4
-neurosurgery,1
-neurosurgery,4
-neurosurgery,4
-neurosurgery,0
-neurosurgery,0
-neurosurgery,0
-neurosurgery,0
-neurosurgery,0
-neurosurgery,17
-neurosurgery,0
-neurosurgery,0
-neurosurgery,0
-neurosurgery,0
-neurosurgery,0
-neurosurgery,0
-neurosurgery,0
-neurosurgery,4
-neurosurgery,0
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,0
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
-neurosurgery,4
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,13
+neurosurgery,11
+neurosurgery,14
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
+neurosurgery,11
 neurosurgery,6
-neurosurgery,4
-neurosurgery,0
-neurosurgery,7
-neurosurgery,4
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurosurgery,7
-neurology,1
-neurology,4
-neurology,4
-neurology,4
-neurology,1
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,5
-neurology,4
-neurology,4
-neurology,4
-neurology,1
-neurology,17
-neurology,0
-neurology,4
-neurology,0
-neurology,1
-neurology,4
-neurology,0
-neurology,4
-neurology,0
-neurology,13
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,1
-neurology,4
-neurology,4
-neurology,10
-neurology,1
-neurology,4
-neurology,0
-neurology,10
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,17
-neurology,0
-neurology,4
-neurology,4
-neurology,0
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,0
-neurology,4
-neurology,0
-neurology,4
-neurology,10
-neurology,4
-neurology,4
-neurology,4
-neurology,0
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,0
-neurology,0
-neurology,4
-neurology,0
-neurology,0
-neurology,0
-neurology,0
-neurology,4
-neurology,0
-neurology,0
-neurology,1
-neurology,0
-neurology,4
-neurology,1
-neurology,0
-neurology,4
-neurology,1
-neurology,0
-neurology,4
-neurology,4
+neurosurgery,11
+neurosurgery,11
+neurosurgery,15
+neurosurgery,11
+neurosurgery,13
+neurosurgery,15
+neurosurgery,15
+neurosurgery,15
+neurosurgery,13
+neurosurgery,15
+neurosurgery,13
+neurosurgery,13
+neurosurgery,13
+neurosurgery,13
+neurosurgery,13
+neurosurgery,13
+neurosurgery,13
+neurosurgery,13
+neurosurgery,13
+neurosurgery,13
+neurosurgery,13
+neurosurgery,13
+neurosurgery,13
+neurosurgery,13
+neurology,14
+neurology,11
+neurology,11
+neurology,11
+neurology,14
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,16
+neurology,11
+neurology,11
+neurology,11
+neurology,14
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,14
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,14
+neurology,11
+neurology,11
+neurology,11
+neurology,14
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,16
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,14
+neurology,11
+neurology,11
+neurology,14
+neurology,11
+neurology,11
+neurology,14
+neurology,11
+neurology,11
+neurology,11
 neurology,6
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,10
-neurology,10
-neurology,10
-neurology,10
-neurology,0
-neurology,10
-neurology,0
-neurology,10
-neurology,10
-neurology,10
-neurology,10
-neurology,10
-neurology,10
-neurology,10
-neurology,10
-neurology,4
-neurology,4
-neurology,10
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,7
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
 neurology,6
-neurology,4
-neurology,4
-neurology,4
-neurology,1
-neurology,4
-neurology,4
+neurology,11
+neurology,11
+neurology,11
+neurology,14
+neurology,11
+neurology,11
 neurology,6
 neurology,6
 neurology,6
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-neurology,4
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,13
-neurology,4
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,13
-nephrology,16
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,13
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,13
-nephrology,4
-nephrology,13
-nephrology,13
-nephrology,1
-nephrology,13
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,10
-nephrology,10
-nephrology,10
-nephrology,10
-nephrology,4
-nephrology,10
-nephrology,10
-nephrology,10
-nephrology,10
-nephrology,10
-nephrology,4
-nephrology,10
-nephrology,10
-nephrology,10
-nephrology,10
-nephrology,10
-nephrology,10
-nephrology,10
-nephrology,4
-nephrology,13
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,4
-nephrology,4
-letters,4
-letters,4
-letters,4
-letters,4
-letters,1
-letters,1
-nephrology,4
-letters,4
-letters,0
-letters,4
-letters,4
-letters,4
-letters,4
-letters,0
-letters,4
-letters,1
-letters,4
-letters,1
-letters,16
-letters,4
-letters,1
-lab medicine - pathology,13
-lab medicine - pathology,13
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+neurology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+neurology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,6
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,14
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,7
+nephrology,7
+nephrology,7
+nephrology,11
+nephrology,11
+nephrology,7
+nephrology,7
+nephrology,7
+nephrology,11
+nephrology,7
+nephrology,11
+nephrology,7
+nephrology,7
+nephrology,7
+nephrology,7
+nephrology,7
+nephrology,7
+nephrology,7
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+nephrology,11
+letters,11
+letters,11
+letters,11
+letters,11
+letters,14
+letters,14
+nephrology,11
+letters,11
+letters,11
+letters,11
+letters,11
+letters,11
+letters,11
+letters,11
+letters,11
+letters,14
+letters,11
+letters,14
+letters,6
+letters,11
+letters,14
+lab medicine - pathology,11
 lab medicine - pathology,1
-lab medicine - pathology,13
-lab medicine - pathology,1
-lab medicine - pathology,13
-lab medicine - pathology,13
-lab medicine - pathology,4
-ime-qme-work comp etc.,4
-ime-qme-work comp etc.,4
-hospice - palliative care,4
-ime-qme-work comp etc.,4
-hospice - palliative care,4
-ime-qme-work comp etc.,4
-hospice - palliative care,4
-hospice - palliative care,4
-hospice - palliative care,1
-hematology - oncology,4
-hematology - oncology,13
-hematology - oncology,13
-hematology - oncology,13
-hematology - oncology,13
-hematology - oncology,3
-hematology - oncology,13
-hematology - oncology,1
-hematology - oncology,13
-hematology - oncology,13
-hematology - oncology,4
-hematology - oncology,4
-hematology - oncology,13
-hematology - oncology,4
-hematology - oncology,4
-hematology - oncology,13
-hematology - oncology,13
-hematology - oncology,4
-hematology - oncology,4
-hematology - oncology,4
+lab medicine - pathology,14
+lab medicine - pathology,11
+lab medicine - pathology,14
+lab medicine - pathology,2
+lab medicine - pathology,2
+lab medicine - pathology,11
+ime-qme-work comp etc.,11
+ime-qme-work comp etc.,11
+hospice - palliative care,11
+ime-qme-work comp etc.,11
+hospice - palliative care,11
+ime-qme-work comp etc.,11
+hospice - palliative care,11
+hospice - palliative care,11
+hospice - palliative care,14
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,14
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
 hematology - oncology,2
-hematology - oncology,13
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
 hematology - oncology,2
-hematology - oncology,13
-hematology - oncology,4
-hematology - oncology,13
-hematology - oncology,4
-hematology - oncology,4
-hematology - oncology,1
-hematology - oncology,1
-hematology - oncology,1
-hematology - oncology,1
-hematology - oncology,4
-hematology - oncology,13
-hematology - oncology,13
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,14
+hematology - oncology,14
+hematology - oncology,14
+hematology - oncology,14
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,14
+hematology - oncology,11
+hematology - oncology,14
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
 hematology - oncology,2
-hematology - oncology,4
-hematology - oncology,1
-hematology - oncology,4
-hematology - oncology,1
-hematology - oncology,4
-hematology - oncology,8
-hematology - oncology,8
-hematology - oncology,13
-hematology - oncology,13
-hematology - oncology,4
-hematology - oncology,13
-hematology - oncology,4
-hematology - oncology,13
-hematology - oncology,13
-hematology - oncology,13
-hematology - oncology,13
-hematology - oncology,4
-hematology - oncology,13
-hematology - oncology,13
-hematology - oncology,13
-hematology - oncology,13
-hematology - oncology,4
-hematology - oncology,4
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
 hematology - oncology,2
-hematology - oncology,15
-general medicine,4
-general medicine,4
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+hematology - oncology,11
+general medicine,11
+general medicine,11
+general medicine,11
+hematology - oncology,14
+general medicine,17
+general medicine,11
 general medicine,14
-hematology - oncology,1
-general medicine,4
-general medicine,4
-general medicine,1
-general medicine,1
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
+general medicine,14
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,14
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,14
+general medicine,11
+general medicine,17
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,6
+general medicine,6
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,6
+general medicine,11
+general medicine,11
+general medicine,5
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,6
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,6
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,6
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,11
+general medicine,14
+general medicine,6
+general medicine,11
 general medicine,10
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,1
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,1
-general medicine,4
-general medicine,4
-general medicine,16
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,16
-general medicine,16
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,6
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,5
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,16
-general medicine,5
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,0
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,9
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,6
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,16
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,14
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,3
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,4
-general medicine,2
-general medicine,1
-general medicine,16
-general medicine,16
-general medicine,14
-general medicine,4
-general medicine,4
-gastroenterology,4
-gastroenterology,15
-gastroenterology,15
-general medicine,4
-gastroenterology,4
-gastroenterology,15
-gastroenterology,4
-gastroenterology,4
-gastroenterology,10
-gastroenterology,2
-gastroenterology,15
-gastroenterology,4
-gastroenterology,4
+general medicine,11
+general medicine,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+general medicine,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,7
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
 gastroenterology,14
-gastroenterology,8
-gastroenterology,4
-gastroenterology,4
-gastroenterology,2
-gastroenterology,4
+gastroenterology,11
+gastroenterology,11
 gastroenterology,14
-gastroenterology,4
-gastroenterology,4
-gastroenterology,4
-gastroenterology,4
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
 gastroenterology,14
-gastroenterology,16
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
 gastroenterology,14
-gastroenterology,4
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
 gastroenterology,14
-gastroenterology,14
-gastroenterology,14
-gastroenterology,14
-gastroenterology,14
-gastroenterology,14
-gastroenterology,14
-gastroenterology,14
-gastroenterology,14
-gastroenterology,14
-gastroenterology,14
-gastroenterology,14
-gastroenterology,14
-gastroenterology,1
-gastroenterology,14
-gastroenterology,14
-gastroenterology,1
-gastroenterology,14
-gastroenterology,14
-gastroenterology,14
-gastroenterology,14
-gastroenterology,14
-gastroenterology,4
-gastroenterology,14
-gastroenterology,14
-gastroenterology,4
-gastroenterology,4
-gastroenterology,8
-gastroenterology,4
-gastroenterology,2
-gastroenterology,4
-gastroenterology,15
-gastroenterology,8
-gastroenterology,15
-gastroenterology,4
-gastroenterology,4
-gastroenterology,2
-gastroenterology,8
-gastroenterology,1
-gastroenterology,8
-gastroenterology,15
-gastroenterology,8
-gastroenterology,15
-gastroenterology,1
-gastroenterology,8
-gastroenterology,2
-gastroenterology,15
-gastroenterology,15
-gastroenterology,4
-gastroenterology,15
-gastroenterology,2
-gastroenterology,15
-gastroenterology,2
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,1
-gastroenterology,8
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,2
-gastroenterology,4
-gastroenterology,15
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
 gastroenterology,6
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,1
-gastroenterology,15
-gastroenterology,2
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
-gastroenterology,15
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
 gastroenterology,14
-gastroenterology,8
-gastroenterology,4
-gastroenterology,10
-gastroenterology,10
-gastroenterology,10
-gastroenterology,10
-gastroenterology,10
-gastroenterology,10
-gastroenterology,10
-gastroenterology,10
-gastroenterology,4
-gastroenterology,10
-gastroenterology,8
-gastroenterology,8
-gastroenterology,10
-gastroenterology,8
-gastroenterology,10
-gastroenterology,10
-gastroenterology,10
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,7
+gastroenterology,7
+gastroenterology,7
+gastroenterology,7
+gastroenterology,7
+gastroenterology,7
+gastroenterology,7
+gastroenterology,7
+gastroenterology,11
+gastroenterology,7
+gastroenterology,11
+gastroenterology,11
+gastroenterology,7
+gastroenterology,11
+gastroenterology,7
+gastroenterology,7
+gastroenterology,7
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
 gastroenterology,14
-gastroenterology,4
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,1
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,4
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,1
-gastroenterology,8
-gastroenterology,4
-gastroenterology,8
-gastroenterology,8
-gastroenterology,8
-gastroenterology,4
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
 gastroenterology,14
-gastroenterology,14
-gastroenterology,4
-gastroenterology,14
-gastroenterology,4
-gastroenterology,14
-gastroenterology,4
-gastroenterology,4
-gastroenterology,4
-gastroenterology,14
-gastroenterology,4
-gastroenterology,4
-gastroenterology,4
-gastroenterology,4
-gastroenterology,14
-gastroenterology,15
-gastroenterology,15
-gastroenterology,14
-gastroenterology,14
-ent - otolaryngology,4
-gastroenterology,2
-gastroenterology,4
-ent - otolaryngology,4
-ent - otolaryngology,9
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,1
-ent - otolaryngology,4
-ent - otolaryngology,2
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,1
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,13
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,9
-ent - otolaryngology,4
-ent - otolaryngology,1
-ent - otolaryngology,9
-ent - otolaryngology,4
-ent - otolaryngology,13
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,9
-ent - otolaryngology,4
-ent - otolaryngology,2
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,9
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,9
-ent - otolaryngology,9
-ent - otolaryngology,10
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,10
-ent - otolaryngology,4
-ent - otolaryngology,9
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,9
-ent - otolaryngology,4
-ent - otolaryngology,9
-ent - otolaryngology,4
-ent - otolaryngology,9
-ent - otolaryngology,1
-ent - otolaryngology,9
-ent - otolaryngology,1
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,4
-ent - otolaryngology,1
-ent - otolaryngology,4
-endocrinology,4
-ent - otolaryngology,4
-endocrinology,4
-endocrinology,4
-endocrinology,4
-endocrinology,4
-endocrinology,4
-endocrinology,4
-endocrinology,4
-endocrinology,4
-endocrinology,4
-endocrinology,4
-endocrinology,2
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,11
+gastroenterology,10
+gastroenterology,11
+ent - otolaryngology,11
+gastroenterology,11
+gastroenterology,0
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,14
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,14
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,14
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,14
+ent - otolaryngology,11
+ent - otolaryngology,14
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,11
+ent - otolaryngology,14
+ent - otolaryngology,11
+endocrinology,11
+ent - otolaryngology,11
+endocrinology,11
+endocrinology,11
+endocrinology,11
+endocrinology,11
+endocrinology,11
+endocrinology,11
+endocrinology,11
+endocrinology,11
+endocrinology,11
+endocrinology,11
+endocrinology,11
 emergency room reports,6
-endocrinology,4
-emergency room reports,4
-endocrinology,4
-emergency room reports,4
-emergency room reports,4
-endocrinology,4
-emergency room reports,4
-emergency room reports,4
-emergency room reports,4
-emergency room reports,16
-emergency room reports,4
-emergency room reports,4
-emergency room reports,4
-emergency room reports,4
-emergency room reports,10
-emergency room reports,16
-emergency room reports,4
-emergency room reports,4
-emergency room reports,4
-emergency room reports,4
-emergency room reports,4
-emergency room reports,16
-emergency room reports,4
-emergency room reports,4
-emergency room reports,4
-emergency room reports,2
-emergency room reports,3
-emergency room reports,3
-emergency room reports,4
-emergency room reports,4
-emergency room reports,4
-emergency room reports,4
-discharge summary,1
-emergency room reports,4
+endocrinology,11
+emergency room reports,11
+endocrinology,11
+emergency room reports,17
+emergency room reports,11
+endocrinology,11
+emergency room reports,11
+emergency room reports,11
+emergency room reports,17
+emergency room reports,11
+emergency room reports,11
+emergency room reports,11
+emergency room reports,11
+emergency room reports,11
+emergency room reports,11
+emergency room reports,6
+emergency room reports,11
+emergency room reports,11
+emergency room reports,11
+emergency room reports,11
+emergency room reports,11
+emergency room reports,11
+emergency room reports,11
+emergency room reports,11
+emergency room reports,17
+emergency room reports,11
+emergency room reports,11
+emergency room reports,11
+emergency room reports,11
+emergency room reports,11
+emergency room reports,11
+emergency room reports,11
+discharge summary,14
+emergency room reports,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,14
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,4
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
 discharge summary,11
 discharge summary,13
-discharge summary,16
-discharge summary,4
-discharge summary,4
-discharge summary,1
-discharge summary,4
-discharge summary,4
-discharge summary,9
-discharge summary,3
-discharge summary,4
-discharge summary,4
-discharge summary,4
-discharge summary,4
-discharge summary,4
-discharge summary,4
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
 discharge summary,6
-discharge summary,4
-discharge summary,4
-discharge summary,4
-discharge summary,7
-discharge summary,4
-discharge summary,11
-discharge summary,14
-discharge summary,17
-discharge summary,17
-discharge summary,11
-discharge summary,4
 discharge summary,11
 discharge summary,11
-discharge summary,4
-discharge summary,14
-discharge summary,4
-discharge summary,8
 discharge summary,11
-discharge summary,13
-discharge summary,4
-discharge summary,13
-discharge summary,4
-discharge summary,4
-discharge summary,14
-discharge summary,2
-discharge summary,4
-discharge summary,14
-discharge summary,4
-discharge summary,4
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
+discharge summary,11
 discharge summary,6
-discharge summary,16
-discharge summary,4
-discharge summary,4
-discharge summary,4
-discharge summary,14
-discharge summary,4
-discharge summary,4
-discharge summary,2
-discharge summary,4
-discharge summary,4
-discharge summary,4
-discharge summary,16
-discharge summary,4
-discharge summary,4
 discharge summary,11
-discharge summary,14
-discharge summary,4
 discharge summary,11
-discharge summary,16
-discharge summary,2
-discharge summary,4
-discharge summary,16
-discharge summary,4
-discharge summary,0
-discharge summary,16
-discharge summary,4
-discharge summary,13
-diets and nutritions,4
-diets and nutritions,4
-diets and nutritions,4
-diets and nutritions,4
-discharge summary,7
-diets and nutritions,4
-diets and nutritions,4
-discharge summary,3
-diets and nutritions,9
-diets and nutritions,4
-diets and nutritions,4
-dermatology,4
-dermatology,4
-diets and nutritions,4
-dermatology,4
-dermatology,1
-dermatology,4
-dermatology,4
-dermatology,4
-dermatology,13
-dermatology,4
-dermatology,2
-dermatology,4
-dermatology,4
-dermatology,1
-dermatology,4
-dermatology,4
-dermatology,4
-dermatology,4
-dermatology,4
-dermatology,4
-dermatology,4
-dentistry,4
-dermatology,4
-dermatology,2
-dentistry,2
-dentistry,4
-dermatology,4
-dentistry,4
-dentistry,2
-dermatology,4
-dentistry,4
-dentistry,3
-dentistry,2
-dentistry,4
-dentistry,4
-dermatology,4
-dentistry,4
-dentistry,4
-dentistry,4
-dentistry,4
-dentistry,4
-dentistry,4
-dentistry,4
-dentistry,2
-dentistry,4
-dentistry,4
-dentistry,4
-dentistry,4
-dentistry,4
-cosmetic / plastic surgery,4
-dentistry,4
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,13
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,13
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,13
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,13
-cosmetic / plastic surgery,13
-cosmetic / plastic surgery,13
-cosmetic / plastic surgery,1
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,4
-cosmetic / plastic surgery,4
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,4
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,4
-consult - history and phy.,16
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,0
-consult - history and phy.,9
-consult - history and phy.,0
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,0
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,1
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,4
-consult - history and phy.,4
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,1
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,4
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,1
-consult - history and phy.,2
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,0
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,14
-consult - history and phy.,14
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,17
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,16
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,4
-consult - history and phy.,9
-consult - history and phy.,4
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,4
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,14
-consult - history and phy.,14
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,14
-consult - history and phy.,9
-consult - history and phy.,3
-consult - history and phy.,4
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,4
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,12
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,4
-consult - history and phy.,1
-consult - history and phy.,8
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,8
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,14
-consult - history and phy.,14
-consult - history and phy.,9
-consult - history and phy.,0
-consult - history and phy.,9
-consult - history and phy.,4
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
+discharge summary,11
+discharge summary,11
+discharge summary,11
+diets and nutritions,11
+diets and nutritions,11
+diets and nutritions,11
+diets and nutritions,11
+discharge summary,15
+diets and nutritions,11
+diets and nutritions,11
+discharge summary,11
+diets and nutritions,11
+diets and nutritions,11
+diets and nutritions,11
+dermatology,11
+dermatology,11
+diets and nutritions,11
+dermatology,11
+dermatology,14
+dermatology,11
+dermatology,11
+dermatology,11
+dermatology,11
+dermatology,11
+dermatology,11
+dermatology,11
+dermatology,11
+dermatology,14
+dermatology,11
+dermatology,11
+dermatology,11
+dermatology,11
+dermatology,11
+dermatology,11
+dermatology,11
+dentistry,17
+dermatology,11
+dermatology,11
+dentistry,17
+dentistry,11
+dermatology,11
+dentistry,11
+dentistry,11
+dermatology,11
+dentistry,11
+dentistry,17
+dentistry,11
+dentistry,11
+dentistry,11
+dermatology,11
+dentistry,11
+dentistry,17
+dentistry,17
+dentistry,17
+dentistry,11
+dentistry,11
+dentistry,17
+dentistry,11
+dentistry,11
+dentistry,17
+dentistry,11
+dentistry,17
+dentistry,17
+cosmetic / plastic surgery,11
+dentistry,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,14
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
+cosmetic / plastic surgery,11
 consult - history and phy.,11
-consult - history and phy.,9
-consult - history and phy.,4
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,13
-consult - history and phy.,9
-consult - history and phy.,13
-consult - history and phy.,13
-consult - history and phy.,13
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,17
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,6
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,1
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
 consult - history and phy.,14
-consult - history and phy.,9
-consult - history and phy.,9
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
 consult - history and phy.,14
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,9
-consult - history and phy.,4
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,6
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
 consult - history and phy.,14
-consult - history and phy.,9
-chiropractic,3
-chiropractic,4
-chiropractic,0
-chiropractic,0
-cardiovascular / pulmonary,16
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,17
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,6
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,6
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,6
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,17
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,14
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,6
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,11
+consult - history and phy.,6
+consult - history and phy.,11
+consult - history and phy.,10
+consult - history and phy.,11
+chiropractic,11
+chiropractic,11
+chiropractic,11
+chiropractic,11
 cardiovascular / pulmonary,6
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,16
 cardiovascular / pulmonary,6
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,4
+cardiovascular / pulmonary,11
 cardiovascular / pulmonary,6
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,13
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
 cardiovascular / pulmonary,2
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,1
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,1
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,4
+cardiovascular / pulmonary,11
 cardiovascular / pulmonary,6
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,1
-cardiovascular / pulmonary,16
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,14
 cardiovascular / pulmonary,6
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,1
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,1
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,1
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
 cardiovascular / pulmonary,6
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,13
-cardiovascular / pulmonary,13
-cardiovascular / pulmonary,13
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,13
-cardiovascular / pulmonary,13
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,1
-cardiovascular / pulmonary,13
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,13
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,1
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,1
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
+cardiovascular / pulmonary,14
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,14
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,14
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,8
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,14
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
 cardiovascular / pulmonary,6
 cardiovascular / pulmonary,6
 cardiovascular / pulmonary,6
 cardiovascular / pulmonary,6
 cardiovascular / pulmonary,6
 cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
 cardiovascular / pulmonary,6
 cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,1
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,13
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,10
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,10
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,1
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,1
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,1
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,2
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,4
 cardiovascular / pulmonary,2
 cardiovascular / pulmonary,2
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,1
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,1
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,6
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,4
-cardiovascular / pulmonary,4
+cardiovascular / pulmonary,2
+cardiovascular / pulmonary,2
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,14
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
 cardiovascular / pulmonary,6
 cardiovascular / pulmonary,6
 cardiovascular / pulmonary,6
-cardiovascular / pulmonary,16
-cardiovascular / pulmonary,16
-bariatrics,14
-bariatrics,14
-bariatrics,14
-bariatrics,4
-bariatrics,4
-bariatrics,14
-bariatrics,14
-bariatrics,14
-allergy / immunology,4
-allergy / immunology,4
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,14
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,8
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,14
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,2
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,14
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,3
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,14
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,14
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,14
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,14
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,3
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,11
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+cardiovascular / pulmonary,6
+bariatrics,11
+bariatrics,11
+bariatrics,11
+bariatrics,11
+bariatrics,11
+bariatrics,11
+bariatrics,11
+bariatrics,11
+allergy / immunology,11
+allergy / immunology,11

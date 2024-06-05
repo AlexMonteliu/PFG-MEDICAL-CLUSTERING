@@ -4,6 +4,9 @@ from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 from sklearn.feature_extraction.text import TfidfVectorizer
 import re
+import plotly.express as px
+import plotly.io as pio
+
 
 # Construir la ruta absoluta al archivo CSV
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -87,3 +90,25 @@ def print_top_features_per_cluster(model, vectorizer, num_features):
 def get_common_clusters_by_specialty(df):
     common_clusters = df.groupby('medical_specialty')['cluster'].agg(lambda x: x.mode()[0]).to_dict()
     return common_clusters
+
+def generate_interactive_pca_plot():
+    # PCA para reducir a 3 componentes principales
+    pca = PCA(n_components=3)
+    reduced_features = pca.fit_transform(X.toarray())
+
+    # Crear un gráfico interactivo 3D con Plotly
+    fig = px.scatter_3d(
+        x=reduced_features[:, 0], 
+        y=reduced_features[:, 1], 
+        z=reduced_features[:, 2], 
+        color=model.labels_,
+        labels={'x': 'PC1', 'y': 'PC2', 'z': 'PC3'},
+        title='KMeans Clusters (3D PCA)',
+    )
+
+    # Guardar el gráfico interactivo como archivo HTML
+    output_path = os.path.join(BASE_DIR, 'static', 'assets', 'clusters_3d.html')
+    pio.write_html(fig, file=output_path, auto_open=False)
+
+# Llamar a la función para generar el gráfico interactivo cuando se ejecute el script
+generate_interactive_pca_plot()
