@@ -96,7 +96,7 @@ def generate_interactive_pca_plot():
     pca = PCA(n_components=3)
     reduced_features = pca.fit_transform(X.toarray())
 
-    # Crear un gráfico interactivo 3D con Plotly
+    # Creo un gráfico interactivo 3D con Plotly
     fig = px.scatter_3d(
         x=reduced_features[:, 0], 
         y=reduced_features[:, 1], 
@@ -110,5 +110,5 @@ def generate_interactive_pca_plot():
     output_path = os.path.join(BASE_DIR, 'static', 'assets', 'clusters_3d.html')
     pio.write_html(fig, file=output_path, auto_open=False)
 
-# Llamar a la función para generar el gráfico interactivo cuando se ejecute el script
+# Llamado a la funcion para generar grafico
 generate_interactive_pca_plot()
