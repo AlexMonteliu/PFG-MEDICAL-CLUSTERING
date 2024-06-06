@@ -7,7 +7,6 @@ import re
 import plotly.express as px
 import plotly.io as pio
 
-
 # Construir la ruta absoluta al archivo CSV
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 csv_path = os.path.join(BASE_DIR, 'data', 'mtsamples.csv')
@@ -49,7 +48,7 @@ df['cluster'] = model.labels_
 if 'medical_specialty' in df.columns:
     specialty_cluster_df = df[['medical_specialty', 'cluster']]
     specialty_cluster_df.to_csv('specialty_cluster_df.csv', index=False)
-    most_common_specialty_per_cluster = specialty_cluster_df.groupby('cluster')['medical_specialty'].agg(lambda x: x.mode()[0])
+    most_common_specialty_per_cluster = specialty_cluster_df.groupby('cluster')['medical_specialty'].agg(lambda x: x.mode()[0]).to_dict()
 
 specialty_to_cluster = df.groupby('medical_specialty')['cluster'].agg(lambda x: [x.mode()[0]]).to_dict()
 
@@ -70,6 +69,7 @@ def get_cluster_and_features(transcription):
     top_feature_indices = scores.argsort()[::-1][:10]
     top_features = [feature_names[i] for i in top_feature_indices]
     
+    print(f"Cluster: {predicted_cluster[0]}, Common Specialty: {common_specialty}, Top Features: {top_features}")
     return str(predicted_cluster[0]), common_specialty, top_features
 
 def print_top_features_per_cluster(model, vectorizer, num_features):
