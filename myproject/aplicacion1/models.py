@@ -37,9 +37,9 @@ if 'keywords' in df.columns:
 
 data = df['keywords']
 vectorizer = TfidfVectorizer(stop_words='english', sublinear_tf=True)
-X = vectorizer.fit_transform(data)
+X = vectorizer.fit_transform(data)#parametro que va a contener preescripcione vectorizadas
 
-true_k = 18
+true_k = 18 #definimos numero de clusters
 model = KMeans(n_clusters=true_k, max_iter=100, n_init=5)
 model.fit(X)
 
@@ -65,7 +65,7 @@ def get_cluster_and_features(transcription):
     predicted_cluster = model.predict(new_tfidf)
     common_specialty = most_common_specialty_per_cluster[int(predicted_cluster[0])]  # Convertir a int
     
-    # Obtener los índices de las 10 características más importantes
+    # Obtenemos  los índices de las 10 características más importantes
     top_feature_indices = scores.argsort()[::-1][:10]
     top_features = [feature_names[i] for i in top_feature_indices]
     
