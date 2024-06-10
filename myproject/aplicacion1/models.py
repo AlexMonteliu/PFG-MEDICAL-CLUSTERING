@@ -1,4 +1,5 @@
 import os
+from django.shortcuts import render
 import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
@@ -106,9 +107,31 @@ def generate_interactive_pca_plot():
         title='KMeans Clusters (3D PCA)',
     )
 
-    # Guardar el gráfico interactivo como archivo HTML
+    # Guardoel gafiko interactivo como archivo HTML
     output_path = os.path.join(BASE_DIR, 'static', 'assets', 'clusters_3d.html')
     pio.write_html(fig, file=output_path, auto_open=False)
+    print(f"Guardando el gráfico en: {output_path}")
 
 # Llamado a la funcion para generar grafico
 generate_interactive_pca_plot()
+
+def generate_specialties_pie_chart():
+    # Contar el número de textos por especialidad
+    specialties_count = df['medical_specialty'].value_counts().reset_index()
+    specialties_count.columns = ['Especialidad', 'Conteo']
+
+    # Crear gráfico de pastel
+    fig = px.pie(
+        specialties_count, 
+        names='Especialidad', 
+        values='Conteo', 
+        title='Distribución de Especialidades Médicas'
+    )
+
+    # Guardar el gráfico interactivo como archivo HTML
+    output_path = os.path.join(BASE_DIR, 'static', 'assets', 'specialties_pie_chart.html')
+    print(f"Guardando el gráfico en: {output_path}")
+    pio.write_html(fig, file=output_path, auto_open=False)
+    return output_path
+
+

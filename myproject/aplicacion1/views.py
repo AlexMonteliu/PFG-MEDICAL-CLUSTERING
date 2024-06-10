@@ -7,6 +7,7 @@ from .forms import LoginForm
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login
+from .models import generate_specialties_pie_chart
 
 @login_required
 def hello(request):
@@ -68,3 +69,10 @@ def login_view(request):
 
 def success_view(request):
     return HttpResponse("Login successful!")
+
+def specialties_pie_chart_view(request):
+    output_path = generate_specialties_pie_chart()
+    with open(output_path, 'r') as file:
+        response = HttpResponse(file.read(), content_type='text/html')
+    response['Content-Disposition'] = 'inline; filename="specialties_pie_chart.html"'
+    return response
