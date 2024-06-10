@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     'aplicacion1',  # Nombre correcto de tu aplicación
 ]
 
+LOGIN_REDIRECT_URL = '/aplicacion1/hello/'
+LOGIN_URL = '/aplicacion1/login/'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -50,6 +53,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'aplicacion1.middleware.LoginRequiredMiddleware',
 ]
 
 ROOT_URLCONF = 'myproject.urls'
