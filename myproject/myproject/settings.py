@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'aplicacion1'
+    'aplicacion1',  # Nombre correcto de tu aplicación
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -115,10 +116,25 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'  # Agrega esta línea
 
-STATIC_URL = 'static/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'  # Agrega esta línea
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+#Dockerizacion
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mydatabase',
+        'USER': 'myuser',
+        'PASSWORD': 'mypassword',
+        'HOST': 'db',  # Este es el nombre del servicio de la base de datos en docker-compose.yml
+        'PORT': '5432',
+    }
+}
