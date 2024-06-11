@@ -41,7 +41,7 @@ vectorizer = TfidfVectorizer(stop_words='english', sublinear_tf=True)
 X = vectorizer.fit_transform(data)#parametro que va a contener preescripcione vectorizadas
 
 true_k = 18 #definimos numero de clusters
-model = KMeans(n_clusters=true_k, max_iter=100, n_init=5)
+model = KMeans(n_clusters=true_k, max_iter=100, n_init=5,random_state=42)
 model.fit(X)
 
 df['cluster'] = model.labels_
@@ -87,6 +87,8 @@ def print_top_features_per_cluster(model, vectorizer, num_features):
         }
     
     return clusters_features
+
+
 
 def get_common_clusters_by_specialty(df):
     common_clusters = df.groupby('medical_specialty')['cluster'].agg(lambda x: x.mode()[0]).to_dict()
@@ -135,3 +137,55 @@ def generate_specialties_pie_chart():
     return output_path
 
 
+
+# Variables globales para el contexto de la vista
+clusters_features = print_top_features_per_cluster(model, vectorizer, 10)
+
+cluster_titles = {
+    0: "0-Medicina General",
+    1: "1-Ortopedia Síndrome del Túnel Carpiano",
+    2: "2-Notas de Progreso y SOAP",
+    3: "3-Consultas e Historial Clínico",
+    4: "4-Informes de Cirugía",
+    5: "5-Ortopedia Cervical",
+    6: "6-Nefrología",
+    7: "7-Neurología",
+    8: "8-Cirugía General",
+    9: "9-Cardiovascular/Pulmonar",
+    10: "10-Cirugía de Hombro",
+    11: "11-Manejo del Dolor",
+    12: "12-Cardiovascular/Pulmonar",
+    13: "13-Cardiovascular/Pulmonar",
+    14: "14-Gastroenterología",
+    15: "15-Radiología",
+    16: "16-Ortopedia Extremidades Inferiores",
+    17: "17-Obstetricia/Ginecología"
+}
+
+cluster_analysis = {
+    0: "Este cluster agrupa textos relacionados con la medicina general, cubriendo una variedad de temas como exámenes físicos, enfermedades respiratorias y otras condiciones comunes que se encuentran en la práctica general. Las menciones de 'office' y 'exam' sugieren que muchos de estos documentos podrían ser registros de consultas médicas generales.",
+    1: "Los documentos en este cluster están relacionados con la ortopedia, específicamente con procedimientos y condiciones como el síndrome del túnel carpiano, liberaciones de ligamentos y procedimientos endoscópicos ortopédicos.",
+    2: "Este cluster contiene documentos que son notas de progreso o registros SOAP (Subjective, Objective, Assessment, Plan). Los temas incluyen diabetes, hipertensión y otros aspectos dietéticos y de peso, que son comunes en las notas de seguimiento de pacientes.",
+    3: "Este cluster agrupa documentos de consultas y exámenes de historia clínica y física. Los temas de pérdida de peso, bypass gástrico y dolor sugieren que se trata de consultas detalladas sobre el historial médico del paciente y evaluaciones físicas.",
+    4: "Los documentos en este cluster están relacionados con informes de cirugía y transcripciones médicas. Las características indican un enfoque en la calidad y precisión de las transcripciones y reportes quirúrgicos.",
+    5: "Similar al Cluster 1, este cluster también se enfoca en ortopedia pero con un enfoque en condiciones y procedimientos de la columna cervical, como discectomías y fusiones.",
+    6: "Los documentos en este cluster están relacionados con la nefrología, abordando condiciones renales, fallas, procedimientos como la colocación de stents y catéteres, y la hemodiálisis.",
+    7: "Este cluster se centra en neurología, incluyendo procedimientos y condiciones neurológicas como craniotomías, hematomas subdurales y debilidades musculares. El uso de MRI y CT indica un enfoque en imágenes radiológicas neurológicas.",
+    8: "Este cluster incluye documentos relacionados con diversas cirugías, desde urológicas y hernias hasta biopsias, cirugías nasales, y procedimientos en gastroenterología y otorrinolaringología.",
+    9: "Los documentos en este cluster están enfocados en el sistema cardiovascular y pulmonar, incluyendo procedimientos como cateterismos arteriales, angiografías, y otros estudios cardiacos y pulmonares.",
+    10: "Este cluster trata sobre procedimientos quirúrgicos, específicamente relacionados con la eliminación de cuerpos extraños, reparaciones del manguito rotador, desbridamientos y cirugías de hombro.",
+    11: "Los documentos en este cluster se centran en el manejo del dolor, incluyendo inyecciones epidurales, estudios de conducción nerviosa y manejo del dolor mediante diversas técnicas.",
+    12: "Este cluster también se centra en el sistema cardiovascular y pulmonar, con documentos que mencionan pruebas de esfuerzo, broncoscopias y otros estudios pulmonares.",
+    13: "Similar a los clusters 9 y 12, este cluster abarca temas del sistema cardiovascular y pulmonar, con un enfoque en condiciones valvulares como fibrilación auricular, regurgitaciones y ecocardiogramas.",
+    14: "Los documentos en este cluster están relacionados con la gastroenterología, abordando procedimientos como colonoscopias, laparoscopias, y cirugías de vesícula biliar y apendicectomías.",
+    15: "Este cluster está enfocado en radiología, incluyendo estudios de CT en abdomen y pelvis, con y sin contraste, y otros estudios radiológicos.",
+    16: "Este cluster trata sobre ortopedia, específicamente en extremidades inferiores, abarcando fracturas, fijaciones de articulaciones, y procedimientos en rodillas, pies y tobillos.",
+    17: "Los documentos en este cluster están relacionados con obstetricia y ginecología, incluyendo temas de embarazo, procedimientos uterinos y vaginales, y cirugías ginecológicas."
+}
+
+# Variables para el contexto de la vista
+context = {
+    'clusters_features': clusters_features,
+    'cluster_titles': cluster_titles,
+    'cluster_analysis': cluster_analysis,
+}

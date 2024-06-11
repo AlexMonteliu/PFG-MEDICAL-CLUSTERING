@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'aplicacion1',  # Nombre correcto de tu aplicación
+    'aplicacion1',
+    'aplicacion1.templatetags',
 ]
 
 LOGIN_REDIRECT_URL = '/aplicacion1/hello/'

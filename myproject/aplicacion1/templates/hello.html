@@ -104,6 +104,10 @@
     </script>
     
     <!-- ANALISIS DE CLUSTERS -->
+    {% load static %}
+    {% load custom_filters %}
+    
+   
     <section class="page-section bg-light" id="Clusters">
         <div class="container">
             <div class="text-center">
@@ -114,9 +118,11 @@
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Cluster {{ cluster }}</h5>
+                            <h5 class="card-title">Cluster {{ cluster_titles|get_item:cluster }}</h5>
                             <p class="card-text">Especialidad Principal: {{ data.specialty }}</p>
                             <p class="card-text">Características Principales: {{ data.features|join:", " }}</p>
+                            <h6>Análisis del Clúster:</h6>
+                            <p class="card-text">{{ cluster_analysis|get_item:cluster }}</p>
                         </div>
                     </div>
                 </div>
@@ -124,6 +130,9 @@
             </div>
         </div>
     </section>
+    
+    
+    
     <!-- Cluster mas comun para cada especialidad -->
   <!-- Especialidades Médicas y sus Clústeres Más Comunes -->
 <section class="page-section bg-light" id="Especialidades">
