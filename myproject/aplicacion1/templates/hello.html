@@ -119,7 +119,9 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Cluster {{ cluster_titles|get_item:cluster }}</h5>
-                            <p class="card-text">Especialidad Principal: {{ data.specialty }}</p>
+                            <p class="card-text">1-Especialidad Principal: {{ data.specialties.0 }}</p>
+                            <p class="card-text">2-Especialidad Secundaria: {{ data.specialties.1 }}</p>
+                            <p class="card-text">3-Especialidad Terciaria: {{ data.specialties.2 }}</p>
                             <p class="card-text">Características Principales: {{ data.features|join:", " }}</p>
                             <h6>Análisis del Clúster:</h6>
                             <p class="card-text">{{ cluster_analysis|get_item:cluster }}</p>
@@ -131,20 +133,39 @@
         </div>
     </section>
     
+    
     <!-- Cluster mas comun para cada especialidad -->
   <!-- Especialidades Médicas y sus Clústeres Más Comunes -->
-  <section class="page-section bg-light" id="Especialidades">
+  <!-- Especialidades Médicas y sus Clústeres Más Comunes -->
+<!-- Especialidades Médicas y sus Clústeres Más Comunes -->
+<section class="page-section bg-light" id="Especialidades">
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">Especialidades Médicas y sus Clústeres Más Comunes</h2>
         </div>
         <div class="row">
-            {% for specialty, cluster in common_clusters_by_specialty.items %}
+            {% for specialty, clusters in common_clusters_by_specialty.items %}
             <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">{{ specialty }}</h5>
-                        <p class="card-text">Cluster Más Común: {{ cluster }}</p>
+                        <p class="card-text">Cluster Más Común: {{ clusters.0 }}</p>
+                        <p class="card-text">
+                            Segundo Cluster Más Común: 
+                            {% if clusters|length > 1 %}
+                                {{ clusters.1 }}
+                            {% else %}
+                                No disponible
+                            {% endif %}
+                        </p>
+                        <p class="card-text">
+                            Tercer Cluster Más Común: 
+                            {% if clusters|length > 2 %}
+                                {{ clusters.2 }}
+                            {% else %}
+                                No disponible
+                            {% endif %}
+                        </p>
                     </div>
                 </div>
             </div>

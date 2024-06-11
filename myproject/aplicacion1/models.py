@@ -53,6 +53,7 @@ if 'medical_specialty' in df.columns:
 
 specialty_to_cluster = df.groupby('medical_specialty')['cluster'].agg(lambda x: [x.mode()[0]]).to_dict()
 
+
 def extract_keywords(text):
     text = clean_text(text)
     tfidf_matrix = vectorizer.transform([text])
@@ -73,6 +74,27 @@ def get_cluster_and_features(transcription):
     print(f"Cluster: {predicted_cluster[0]}, Common Specialty: {common_specialty}, Top Features: {top_features}")
     return str(predicted_cluster[0]), common_specialty, top_features
 
+
+# Calcula las tres especialidades más comunes por clúster
+def get_top_specialties_per_cluster(df, n=3):
+    specialty_cluster_df = df[['medical_specialty', 'cluster']]
+    top_specialties_per_cluster = {}
+
+    for cluster in range(true_k):
+        top_specialties = (
+            specialty_cluster_df[specialty_cluster_df['cluster'] == cluster]
+            .groupby('medical_specialty')
+            .size()
+            .nlargest(n)
+            .index.tolist()
+        )
+        top_specialties_per_cluster[cluster] = top_specialties
+    
+    return top_specialties_per_cluster
+
+top_specialties_per_cluster = get_top_specialties_per_cluster(df)
+
+
 def print_top_features_per_cluster(model, vectorizer, num_features):
     order_centroids = model.cluster_centers_.argsort()[:, ::-1]
     terms = vectorizer.get_feature_names_out()
@@ -80,19 +102,26 @@ def print_top_features_per_cluster(model, vectorizer, num_features):
     clusters_features = {}
     for i in range(true_k):
         cluster_features = [terms[ind] for ind in order_centroids[i, :num_features]]
-        common_specialty = most_common_specialty_per_cluster[i]  # Obtener la especialidad más común
+        common_specialties = top_specialties_per_cluster[i]  # Obtener las tres especialidades más comunes
         clusters_features[i] = {
             'features': cluster_features,
-            'specialty': common_specialty
+            'specialties': common_specialties
         }
     
     return clusters_features
 
+clusters_features = print_top_features_per_cluster(model, vectorizer, 10)
 
 
 def get_common_clusters_by_specialty(df):
-    common_clusters = df.groupby('medical_specialty')['cluster'].agg(lambda x: x.mode()[0]).to_dict()
+    common_clusters = {}
+    grouped = df.groupby('medical_specialty')['cluster'].apply(lambda x: x.value_counts().index[:3])
+    
+    for specialty, clusters in grouped.items():
+        common_clusters[specialty] = list(clusters) + ['No disponible'] * (3 - len(clusters))
+        
     return common_clusters
+
 
 def generate_interactive_pca_plot():
     # PCA para reducir a 3 componentes principales
