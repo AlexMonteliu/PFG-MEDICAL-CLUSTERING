@@ -10,7 +10,6 @@ from django.contrib.auth import authenticate, login
 from .models import generate_specialties_pie_chart
 
 @login_required
-@login_required
 def hello(request):
     clusters_features = print_top_features_per_cluster(model, vectorizer, 10)
 
@@ -119,6 +118,7 @@ def login_view(request):
 def success_view(request):
     return HttpResponse("Login successful!")
 
+@login_required
 def specialties_pie_chart_view(request):
     output_path = generate_specialties_pie_chart()
     with open(output_path, 'r') as file:

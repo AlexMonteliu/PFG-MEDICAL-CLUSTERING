@@ -22,5 +22,5 @@ RUN python manage.py collectstatic --noinput
 # Exponer el puerto 8000 para el servidor
 EXPOSE 8000
 
-# Comando por defecto para ejecutar la aplicación
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "myproject.wsgi:application"]
+# Comando por defecto para ejecutar la aplicación, AÑADIMOS Tb que deje peticiones mas grandes para textos con mas caracteres
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--limit-request-line", "8190", "myproject.wsgi:application"]
