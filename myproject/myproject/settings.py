@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-au17%**ftw)4+o^4vwbspm@#x&4(d_=@$5)!w60%du689hjfww
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*','pfgalejandromonteliu.azurewebsites.net']
 X_FRAME_OPTIONS = 'ALLOW-FROM localhost'
 
 
@@ -44,6 +44,11 @@ INSTALLED_APPS = [
 
 LOGIN_REDIRECT_URL = '/aplicacion1/hello/'
 LOGIN_URL = '/aplicacion1/login/'
+
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://pfgalejandromonteliu.azurewebsites.net',
+]
 
 
 MIDDLEWARE = [

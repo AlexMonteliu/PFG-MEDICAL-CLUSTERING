@@ -24,7 +24,7 @@ def hello(request):
         7: "7- Neurología",
         8: "8- Cirugía General",
         9: "9- Procedimientos Cardiovasculares",
-        10:"10 Cirugía de Hombro",
+        10:"10 Cirugías de Hombro y Cuerpos Extraños",
         11:"11- Manejo del Dolor",
         12:"12- Estudios Pulmonares y Pruebas de Esfuerzo",
         13:"13- Condiciones Valvulares y Ecocardiogramas",
