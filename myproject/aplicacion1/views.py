@@ -94,24 +94,16 @@ def login_view(request):
         if form.is_valid():
             username = form.cleaned_data['username']
             password = form.cleaned_data['password']
-            if username == CORRECT_USERNAME and password == CORRECT_PASSWORD:
-                # Autentica al usuario manualmente
-                user = authenticate(request, username=username, password=password)
-                if user is not None:
-                    login(request, user)
-                    return redirect('hello')  # Redirige a 'hello' después del login exitoso
-                else:
-                    # Crear el usuario manualmente si no existe
-                    from django.contrib.auth.models import User
-                    user = User.objects.create_user(username=username, password=password)
-                    user.save()
-                    login(request, user)
-                    return redirect('hello')
+            user = authenticate(request, username=username, password=password)
+            if user is not None:
+                login(request, user)
+                return redirect('hello')  # Redirige a 'hello' después del login exitoso
             else:
                 return HttpResponse("Invalid username or password.")
     else:
         form = LoginForm()
     return render(request, 'login.html', {'form': form})
+
 
 
 
