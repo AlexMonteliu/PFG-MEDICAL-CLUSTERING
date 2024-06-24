@@ -75,31 +75,37 @@
         function fetchPrediction() {
             const transcription = document.getElementById('transcription').value;
             const resultDiv = document.getElementById('result');
-    
+
             // Limpiar resultados anteriores
             resultDiv.style.display = 'none';
             resultDiv.classList.remove('alert-info', 'alert-danger');
             resultDiv.innerText = '';
-    
+
             // Enviar la solicitud
-            fetch(`/aplicacion1/predict_cluster/?transcription=${encodeURIComponent(transcription)}`)
-                .then(response => response.json())
-                .then(data => {
-                    if (data.error) {
-                        resultDiv.classList.add('alert-danger');
-                        resultDiv.innerText = data.error;
-                    } else {
-                        resultDiv.classList.add('alert-info');
-                        resultDiv.innerText = `Cluster: ${data.cluster}, Common Specialty: ${data.common_specialty}, Top Features: ${data.top_features.join(', ')}`;
-                    }
-                    resultDiv.style.display = 'block';
-                })
-                .catch(error => {
-                    console.error('Error:', error);
+            fetch(`/aplicacion1/predict_cluster/`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ transcription: transcription })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
                     resultDiv.classList.add('alert-danger');
-                    resultDiv.innerText = 'An error occurred while fetching the prediction.';
-                    resultDiv.style.display = 'block';
-                });
+                    resultDiv.innerText = data.error;
+                } else {
+                    resultDiv.classList.add('alert-info');
+                    resultDiv.innerText = `Cluster: ${data.cluster}, Common Specialty: ${data.common_specialty}, Top Features: ${data.top_features.join(', ')}`;
+                }
+                resultDiv.style.display = 'block';
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                resultDiv.classList.add('alert-danger');
+                resultDiv.innerText = 'An error occurred while fetching the prediction.';
+                resultDiv.style.display = 'block';
+            });
         }
     </script>
     

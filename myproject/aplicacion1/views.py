@@ -1,3 +1,4 @@
+import json
 from django.http import JsonResponse
 from django.shortcuts import render
 from .models import get_cluster_and_features, print_top_features_per_cluster, get_common_clusters_by_specialty, model, vectorizer, df,get_cluster_and_features, print_top_features_per_cluster, generate_specialties_pie_chart, context
@@ -8,7 +9,9 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login
 from .models import generate_specialties_pie_chart
-
+from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.http import require_POST
+import json
 @login_required
 def hello(request):
     clusters_features = print_top_features_per_cluster(model, vectorizer, 10)
@@ -64,10 +67,13 @@ def hello(request):
 
     return render(request, 'hello.html', context)
 
+@csrf_exempt
+@require_POST
 @login_required
 def predict_cluster(request):
-    transcription = request.GET.get('transcription', '')
     try:
+        data = json.loads(request.body)
+        transcription = data.get('transcription', '')
         if transcription:
             cluster, common_specialty, top_features = get_cluster_and_features(transcription)
             response = {
