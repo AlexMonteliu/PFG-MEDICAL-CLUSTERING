@@ -25,7 +25,7 @@ if 'medical_specialty' in df.columns:
         surgery_indices = df[df['medical_specialty'] == 'surgery'].index[:500]
         df.drop(surgery_indices, inplace=True)
 
-def clean_text(text):
+def clean_text(text):#funsion utilizada para preprocesado de texto
     text = text.lower()
     text = re.sub(r'\W', ' ', text)
     text = re.sub(r'\s+[a-zA-Z]\s+', ' ', text)
@@ -41,22 +41,22 @@ vectorizer = TfidfVectorizer(stop_words='english', sublinear_tf=True)
 X = vectorizer.fit_transform(data)#parametro que va a contener preescripcione vectorizadas
 
 true_k = 18 #definimos numero de clusters
-model = KMeans(n_clusters=true_k, max_iter=100, n_init=5,random_state=42)
+model = KMeans(n_clusters=true_k, max_iter=100, n_init=5,random_state=42)#Creamos algoritmo k-means
 model.fit(X)
 
 df['cluster'] = model.labels_
 
 if 'medical_specialty' in df.columns:
     specialty_cluster_df = df[['medical_specialty', 'cluster']]
-    specialty_cluster_df.to_csv('specialty_cluster_df.csv', index=False)
+    #specialty_cluster_df.to_csv('specialty_cluster_df.csv', index=False)
     most_common_specialty_per_cluster = specialty_cluster_df.groupby('cluster')['medical_specialty'].agg(lambda x: x.mode()[0]).to_dict()
 
 specialty_to_cluster = df.groupby('medical_specialty')['cluster'].agg(lambda x: [x.mode()[0]]).to_dict()
 
 
-def extract_keywords(text):
+def extract_keywords(text):#Funcion para extraer las palabras clave de informe medico transcrito introducido
     text = clean_text(text)
-    tfidf_matrix = vectorizer.transform([text])
+    tfidf_matrix = vectorizer.transform([text])#Se aplica mismo sistema de vectorizado
     feature_names = vectorizer.get_feature_names_out()
     scores = tfidf_matrix.toarray().flatten()
     return feature_names, scores
