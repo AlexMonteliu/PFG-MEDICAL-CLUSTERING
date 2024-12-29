@@ -201,10 +201,13 @@
                     <label for="cluster-select">Clúster:</label>
                     <!-- Permite múltiples selecciones y mayor tamaño -->
                     <select id="cluster-select" class="form-control" multiple size="12">
+                        <!-- Opción especial para seleccionar todos -->
+                        <option value="ALL">-- Todos los Clústeres --</option>
                         {% for cluster_id, cluster_name in cluster_titles.items %}
                             <option value="{{ cluster_id }}">{{ cluster_name }}</option>
                         {% endfor %}
                     </select>
+                    
                     <small class="text-muted">Mantén presionada la tecla Ctrl (o Cmd en Mac) para seleccionar varios clústeres.</small>
                 </div>
                 <div class="col-lg-6">

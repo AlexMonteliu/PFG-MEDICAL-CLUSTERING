@@ -157,32 +157,35 @@ def get_reports_by_cluster(request):
     return JsonResponse({'error': 'Método no permitido'}, status=405)
 
     
-
 @csrf_exempt
 def get_reports_by_clusters_specialty(request):
     if request.method == 'GET':
-        cluster_ids_str = request.GET.get('cluster_ids', '').strip()  # e.g. "0,1,2"
+        cluster_ids_str = request.GET.get('cluster_ids', '').strip()  # e.g. "0,1,2" o "ALL"
         specialty = request.GET.get('specialty', '').strip()
         
         if cluster_ids_str and specialty:
             try:
-                # Convertir "0,1,2" a [0,1,2]
-                cluster_ids = [int(cid) for cid in cluster_ids_str.split(',') if cid.isdigit()]
-                
-                # Filtrar el dataframe
-                filtered_df = df[
-                    (df['cluster'].isin(cluster_ids)) &
-                    (df['medical_specialty'].str.strip().str.lower() == specialty.lower())
-                ]
+                # Filtramos primero por especialidad
+                base_df = df[df['medical_specialty'].str.strip().str.lower() == specialty.lower()]
 
+                if cluster_ids_str == "ALL":
+                    # "ALL" significa que no filtramos por cluster, sino que tomamos todos los cluster de base_df
+                    filtered_df = base_df
+                else:
+                    # Convertir "0,1,2" a [0,1,2]
+                    cluster_ids = [int(cid) for cid in cluster_ids_str.split(',') if cid.isdigit()]
+                    filtered_df = base_df[ base_df['cluster'].isin(cluster_ids) ]
+                
                 if not filtered_df.empty:
-                    # Crear un diccionario para agrupar los informes por clúster
+                    # Agrupamos por cluster para devolver el formato { "clusters_reports": { "0": [...], "1": [...]} }
                     clusters_dict = {}
-                    for cluster_id in cluster_ids:
-                        subset_df = filtered_df[filtered_df['cluster'] == cluster_id]
-                        clusters_dict[str(cluster_id)] = subset_df['transcription'].tolist()
+                    # Averiguamos todos los cluster únicos que hay en filtered_df
+                    cluster_ids_unique = filtered_df['cluster'].unique()
                     
-                    # Devolvemos el diccionario bajo la clave "clusters_reports"
+                    for cid in cluster_ids_unique:
+                        cluster_specific_df = filtered_df[filtered_df['cluster'] == cid]
+                        clusters_dict[str(cid)] = cluster_specific_df['transcription'].tolist()
+                    
                     return JsonResponse({'clusters_reports': clusters_dict})
                 else:
                     return JsonResponse({
@@ -197,3 +200,4 @@ def get_reports_by_clusters_specialty(request):
         else:
             return JsonResponse({'error': 'cluster_ids o specialty no proporcionados'}, status=400)
     return JsonResponse({'error': 'Método no permitido'}, status=405)
+
