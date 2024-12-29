@@ -33,7 +33,7 @@
               <li class="nav-item"><a class="nav-link" href="#preescripcion">informe</a></li>
               <li class="nav-item"><a class="nav-link" href="#Clusters">Clusters</a></li>
               <li class="nav-item"><a class="nav-link" href="#Especialidades">Especialidades y Clúster</a></li>
-              <li class="nav-item"><a class="nav-link" href="#Visualizacion">Visualización Clústeres</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Visualizacion">Analisis contenido Cluster</a></li>
               <li class="nav-item"><a class="nav-link" href="#VisualizacionEspecialidades">Visualizacion Especialidades</a></li>
               <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
             </ul>
@@ -142,8 +142,6 @@
     
     <!-- Cluster mas comun para cada especialidad -->
   <!-- Especialidades Médicas y sus Clústeres Más Comunes -->
-  <!-- Especialidades Médicas y sus Clústeres Más Comunes -->
-<!-- Especialidades Médicas y sus Clústeres Más Comunes -->
 <section class="page-section bg-light" id="Especialidades">
     <div class="container">
         <div class="text-center">
@@ -180,7 +178,7 @@
     </div>
 </section>
     <!--PCA VISUALIZACION EN 3D-->
-    <section class="page-section bg-light" id="Visualizacion">
+    <!-- <section class="page-section bg-light" id="Visualizacion">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Visualización Clusters</h2>
@@ -191,7 +189,81 @@
                 </div>
             </div>
         </div>
-    </section>   
+    </section>    -->
+    <section class="page-section bg-light" id="Visualizacion">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Filtrar Informes</h2>
+                <p class="text-muted">Selecciona un clúster y una especialidad para ver los primeros 5 informes asociados.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="cluster-select">Clúster:</label>
+                    <select id="cluster-select" class="form-control">
+                        <option value="">--Selecciona un clúster--</option>
+                        {% for cluster_id, cluster_name in cluster_titles.items %}
+                            <option value="{{ cluster_id }}">{{ cluster_name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="col-lg-6">
+                    <label for="specialty-select">Especialidad:</label>
+                    <select id="specialty-select" class="form-control">
+                        <option value="">--Selecciona una especialidad--</option>
+                        {% for specialty in specialties %}
+                            <option value="{{ specialty }}">{{ specialty }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+    
+            <div class="row mt-4">
+                <div class="col-lg-12">
+                    <div id="filtered-reports-cluster">
+                        <!-- Aquí se mostrarán los informes filtrados por clúster y especialidad -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        // Esta función se encarga de recuperar los informes según la selección actual de clúster y especialidad
+        function fetchReports() {
+            const cluster_id = document.getElementById('cluster-select').value;
+            const specialty = document.getElementById('specialty-select').value;
+            const container = document.getElementById('filtered-reports-cluster');
+            container.innerHTML = 'Cargando informes...';
+    
+            if (cluster_id && specialty) {
+                const url = `/aplicacion1/get_reports_by_cluster_specialty/?cluster_id=${encodeURIComponent(cluster_id)}&specialty=${encodeURIComponent(specialty)}`;
+                fetch(url, {
+                    credentials: 'same-origin'
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.reports && data.reports.length > 0) {
+                        container.innerHTML = data.reports.map(report => `<div>${report}</div>`).join('<hr>');
+                    } else if (data.message) {
+                        container.innerHTML = `<p>${data.message}</p>`;
+                    } else {
+                        container.innerHTML = 'No se encontraron informes para esta combinación de clúster y especialidad.';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error al cargar los informes:', error);
+                    container.innerHTML = 'Error al cargar los informes.';
+                });
+            } else {
+                container.innerHTML = 'Selecciona un clúster y una especialidad.';
+            }
+        }
+    
+        // Escucha los cambios en ambos selectores
+        document.getElementById('cluster-select').addEventListener('change', fetchReports);
+        document.getElementById('specialty-select').addEventListener('change', fetchReports);
+    </script>
+    
     <!-- especialidades -->
     <section class="page-section bg-light" id="VisualizacionEspecialidades">
         <div class="container">
