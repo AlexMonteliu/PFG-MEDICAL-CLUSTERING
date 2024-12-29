@@ -142,7 +142,7 @@ def get_reports_by_cluster(request):
 
                 if not filtered_df.empty:
                     # Obtener los 5 primeros informes. Ajustar el nombre de la columna con el texto del informe
-                    top_5_reports = filtered_df['transcription'].head(5).tolist()
+                    top_5_reports = filtered_df['transcription'].tolist()
                     return JsonResponse({'reports': top_5_reports})
                 else:
                     return JsonResponse({'reports': [], 'message': 'No se encontraron informes para este clúster.'})
@@ -172,8 +172,9 @@ def get_reports_by_cluster_specialty(request):
                 ]
 
                 if not filtered_df.empty:
-                    top_5_reports = filtered_df['transcription'].head(5).tolist()  # Ajusta 'transcription' según tu columna
-                    return JsonResponse({'reports': top_5_reports})
+                    # Quita .head(5) y devuelve la lista completa
+                    all_reports = filtered_df['transcription'].tolist()
+                    return JsonResponse({'reports': all_reports})
                 else:
                     return JsonResponse({'reports': [], 'message': 'No se encontraron informes para esta combinación de clúster y especialidad.'})
             except ValueError:

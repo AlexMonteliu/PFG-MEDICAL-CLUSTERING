@@ -194,7 +194,7 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Filtrar Informes</h2>
-                <p class="text-muted">Selecciona un clúster y una especialidad para ver los primeros 5 informes asociados.</p>
+                <p class="text-muted">Selecciona un clúster y una especialidad para ver todos los informes asociados.</p>
             </div>
             <div class="row">
                 <div class="col-lg-6">
@@ -227,42 +227,114 @@
         </div>
     </section>
     
+    <!-- Modal para visualizar cada informe individualmente -->
+    <div class="modal fade" id="reportModal" tabindex="-1" aria-labelledby="reportModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="reportModalLabel">Informe</h5>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <p id="reportContent">Aquí se mostrará el contenido del informe.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" id="prevReportBtn">Anterior</button>
+            <button type="button" class="btn btn-primary" id="nextReportBtn">Siguiente</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <script>
-        // Esta función se encarga de recuperar los informes según la selección actual de clúster y especialidad
+        // Variables globales para controlar los informes y el índice actual
+        let currentReports = [];
+        let currentIndex = 0;
+    
+        // Referencias al DOM
+        const container = document.getElementById('filtered-reports-cluster');
+        const reportContent = document.getElementById('reportContent');
+        const prevReportBtn = document.getElementById('prevReportBtn');
+        const nextReportBtn = document.getElementById('nextReportBtn');
+    
+        // Función principal para obtener los informes por clúster y especialidad
         function fetchReports() {
             const cluster_id = document.getElementById('cluster-select').value;
             const specialty = document.getElementById('specialty-select').value;
-            const container = document.getElementById('filtered-reports-cluster');
             container.innerHTML = 'Cargando informes...';
     
             if (cluster_id && specialty) {
                 const url = `/aplicacion1/get_reports_by_cluster_specialty/?cluster_id=${encodeURIComponent(cluster_id)}&specialty=${encodeURIComponent(specialty)}`;
-                fetch(url, {
-                    credentials: 'same-origin'
-                })
-                .then(response => response.json())
-                .then(data => {
-                    if (data.reports && data.reports.length > 0) {
-                        container.innerHTML = data.reports.map(report => `<div>${report}</div>`).join('<hr>');
-                    } else if (data.message) {
-                        container.innerHTML = `<p>${data.message}</p>`;
-                    } else {
-                        container.innerHTML = 'No se encontraron informes para esta combinación de clúster y especialidad.';
-                    }
-                })
-                .catch(error => {
-                    console.error('Error al cargar los informes:', error);
-                    container.innerHTML = 'Error al cargar los informes.';
-                });
+                fetch(url, { credentials: 'same-origin' })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.reports && data.reports.length > 0) {
+                            currentReports = data.reports;
+                            // Mostramos enlaces para cada informe
+                            container.innerHTML = currentReports.map((report, index) => `
+                                <div>
+                                    <a href="#" class="report-link" data-index="${index}">Informe ${index + 1}</a>
+                                </div>
+                            `).join('');
+                        } else if (data.message) {
+                            container.innerHTML = `<p>${data.message}</p>`;
+                        } else {
+                            container.innerHTML = 'No se encontraron informes para esta combinación de clúster y especialidad.';
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error al cargar los informes:', error);
+                        container.innerHTML = 'Error al cargar los informes.';
+                    });
             } else {
                 container.innerHTML = 'Selecciona un clúster y una especialidad.';
+            }
+        }
+    
+        // Abre el modal con el informe correspondiente
+        function openReportModal(index) {
+            currentIndex = index;
+            reportContent.textContent = currentReports[currentIndex];
+    
+            // Mostrar el modal (asumiendo uso de Bootstrap 5)
+            const modal = new bootstrap.Modal(document.getElementById('reportModal'));
+            modal.show();
+        }
+    
+        // Funciones para navegar en el modal
+        function showPrevReport() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                reportContent.textContent = currentReports[currentIndex];
+            }
+        }
+    
+        function showNextReport() {
+            if (currentIndex < currentReports.length - 1) {
+                currentIndex++;
+                reportContent.textContent = currentReports[currentIndex];
             }
         }
     
         // Escucha los cambios en ambos selectores
         document.getElementById('cluster-select').addEventListener('change', fetchReports);
         document.getElementById('specialty-select').addEventListener('change', fetchReports);
+    
+        // Escucha clicks en la lista de informes para abrir el modal
+        container.addEventListener('click', function(event) {
+            if (event.target.classList.contains('report-link')) {
+                event.preventDefault();
+                const index = parseInt(event.target.dataset.index, 10);
+                openReportModal(index);
+            }
+        });
+    
+        // Botones de navegación dentro del modal
+        prevReportBtn.addEventListener('click', showPrevReport);
+        nextReportBtn.addEventListener('click', showNextReport);
     </script>
+    
     
     <!-- especialidades -->
     <section class="page-section bg-light" id="VisualizacionEspecialidades">
