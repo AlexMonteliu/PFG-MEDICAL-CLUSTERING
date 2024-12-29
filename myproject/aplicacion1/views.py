@@ -15,6 +15,8 @@ import json
 @login_required
 def hello(request):
     clusters_features = print_top_features_per_cluster(model, vectorizer, 10)
+ # Extraer especialidades únicas para el select
+    specialties = df['medical_specialty'].unique().tolist()
 
     cluster_titles = {
         0: "0- Medicina General",
@@ -62,7 +64,8 @@ def hello(request):
         'clusters_features': clusters_features,
         'cluster_titles': cluster_titles,
         'cluster_analysis': cluster_analysis,
-        'common_clusters_by_specialty': common_clusters_by_specialty
+        'common_clusters_by_specialty': common_clusters_by_specialty,
+        'specialties': specialties
     }
 
     return render(request, 'hello.html', context)
@@ -123,3 +126,61 @@ def specialties_pie_chart_view(request):
         response = HttpResponse(file.read(), content_type='text/html')
     response['Content-Disposition'] = 'inline; filename="specialties_pie_chart.html"'
     return response
+
+# @login_required
+@csrf_exempt
+def get_reports_by_cluster(request):
+    if request.method == 'GET':
+        cluster_id = request.GET.get('cluster_id', '').strip()
+        if cluster_id:
+            try:
+                # Convertir el cluster_id a entero si es necesario
+                cluster_id = int(cluster_id)
+
+                # Filtrar el DataFrame por el cluster seleccionado
+                filtered_df = df[df['cluster'] == cluster_id]
+
+                if not filtered_df.empty:
+                    # Obtener los 5 primeros informes. Ajustar el nombre de la columna con el texto del informe
+                    top_5_reports = filtered_df['transcription'].head(5).tolist()
+                    return JsonResponse({'reports': top_5_reports})
+                else:
+                    return JsonResponse({'reports': [], 'message': 'No se encontraron informes para este clúster.'})
+            except ValueError:
+                # Si cluster_id no es convertible a int
+                return JsonResponse({'error': 'Cluster ID inválido'}, status=400)
+            except Exception as e:
+                print(f"Error al procesar la solicitud: {e}")
+                return JsonResponse({'error': 'Error interno del servidor'}, status=500)
+        else:
+            return JsonResponse({'error': 'Cluster ID no proporcionado'}, status=400)
+    return JsonResponse({'error': 'Método no permitido'}, status=405)
+
+    
+
+@csrf_exempt
+def get_reports_by_cluster_specialty(request):
+    if request.method == 'GET':
+        cluster_id = request.GET.get('cluster_id', '').strip()
+        specialty = request.GET.get('specialty', '').strip()
+        if cluster_id and specialty:
+            try:
+                cluster_id = int(cluster_id)
+                filtered_df = df[
+                    (df['cluster'] == cluster_id) & 
+                    (df['medical_specialty'].str.strip().str.lower() == specialty.lower())
+                ]
+
+                if not filtered_df.empty:
+                    top_5_reports = filtered_df['transcription'].head(5).tolist()  # Ajusta 'transcription' según tu columna
+                    return JsonResponse({'reports': top_5_reports})
+                else:
+                    return JsonResponse({'reports': [], 'message': 'No se encontraron informes para esta combinación de clúster y especialidad.'})
+            except ValueError:
+                return JsonResponse({'error': 'Cluster ID inválido'}, status=400)
+            except Exception as e:
+                print(f"Error al procesar la solicitud: {e}")
+                return JsonResponse({'error': 'Error interno del servidor'}, status=500)
+        else:
+            return JsonResponse({'error': 'Cluster ID o especialidad no proporcionados'}, status=400)
+    return JsonResponse({'error': 'Método no permitido'}, status=405)
