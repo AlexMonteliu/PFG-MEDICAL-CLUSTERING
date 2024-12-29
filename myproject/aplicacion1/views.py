@@ -166,21 +166,27 @@ def get_reports_by_clusters_specialty(request):
         
         if cluster_ids_str and specialty:
             try:
-                # Convertir "0,1,2" a lista de enteros [0,1,2]
+                # Convertir "0,1,2" a [0,1,2]
                 cluster_ids = [int(cid) for cid in cluster_ids_str.split(',') if cid.isdigit()]
                 
-                # Filtrar el dataframe: cluster en cluster_ids y specialty coincide
+                # Filtrar el dataframe
                 filtered_df = df[
                     (df['cluster'].isin(cluster_ids)) &
                     (df['medical_specialty'].str.strip().str.lower() == specialty.lower())
                 ]
 
                 if not filtered_df.empty:
-                    all_reports = filtered_df['transcription'].tolist()
-                    return JsonResponse({'reports': all_reports})
+                    # Crear un diccionario para agrupar los informes por clúster
+                    clusters_dict = {}
+                    for cluster_id in cluster_ids:
+                        subset_df = filtered_df[filtered_df['cluster'] == cluster_id]
+                        clusters_dict[str(cluster_id)] = subset_df['transcription'].tolist()
+                    
+                    # Devolvemos el diccionario bajo la clave "clusters_reports"
+                    return JsonResponse({'clusters_reports': clusters_dict})
                 else:
                     return JsonResponse({
-                        'reports': [],
+                        'clusters_reports': {},
                         'message': 'No se encontraron informes para estos clústeres y esta especialidad.'
                     })
             except ValueError:
