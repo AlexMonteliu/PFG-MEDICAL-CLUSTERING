@@ -199,12 +199,13 @@
             <div class="row">
                 <div class="col-lg-6">
                     <label for="cluster-select">Clúster:</label>
-                    <select id="cluster-select" class="form-control">
-                        <option value="">--Selecciona un clúster--</option>
+                    <!-- Ahora permite múltiples selecciones -->
+                    <select id="cluster-select" class="form-control" multiple size="12">
                         {% for cluster_id, cluster_name in cluster_titles.items %}
                             <option value="{{ cluster_id }}">{{ cluster_name }}</option>
                         {% endfor %}
                     </select>
+                    <small class="text-muted">Mantén presionada la tecla Ctrl (o Cmd en Mac) para seleccionar varios clústeres.</small>
                 </div>
                 <div class="col-lg-6">
                     <label for="specialty-select">Especialidad:</label>
@@ -248,30 +249,36 @@
     </div>
     
     <script>
-        // Variables globales para controlar los informes y el índice actual
         let currentReports = [];
         let currentIndex = 0;
     
-        // Referencias al DOM
         const container = document.getElementById('filtered-reports-cluster');
         const reportContent = document.getElementById('reportContent');
         const prevReportBtn = document.getElementById('prevReportBtn');
         const nextReportBtn = document.getElementById('nextReportBtn');
     
-        // Función principal para obtener los informes por clúster y especialidad
         function fetchReports() {
-            const cluster_id = document.getElementById('cluster-select').value;
+            // Tomar la especialidad
             const specialty = document.getElementById('specialty-select').value;
+    
+            // Tomar TODOS los clústeres seleccionados
+            const clusterSelect = document.getElementById('cluster-select');
+            const selectedClusters = Array.from(clusterSelect.options)
+                .filter(option => option.selected)
+                .map(option => option.value);  // array de IDs de clúster en formato string
+    
             container.innerHTML = 'Cargando informes...';
     
-            if (cluster_id && specialty) {
-                const url = `/aplicacion1/get_reports_by_cluster_specialty/?cluster_id=${encodeURIComponent(cluster_id)}&specialty=${encodeURIComponent(specialty)}`;
+            if (selectedClusters.length > 0 && specialty) {
+                // Convertimos el array de clústeres en un string separado por comas (por ejemplo: "0,1,2")
+                const cluster_ids = selectedClusters.join(',');
+    
+                const url = `/aplicacion1/get_reports_by_clusters_specialty/?cluster_ids=${encodeURIComponent(cluster_ids)}&specialty=${encodeURIComponent(specialty)}`;
                 fetch(url, { credentials: 'same-origin' })
                     .then(response => response.json())
                     .then(data => {
                         if (data.reports && data.reports.length > 0) {
                             currentReports = data.reports;
-                            // Mostramos enlaces para cada informe
                             container.innerHTML = currentReports.map((report, index) => `
                                 <div>
                                     <a href="#" class="report-link" data-index="${index}">Informe ${index + 1}</a>
@@ -280,7 +287,7 @@
                         } else if (data.message) {
                             container.innerHTML = `<p>${data.message}</p>`;
                         } else {
-                            container.innerHTML = 'No se encontraron informes para esta combinación de clúster y especialidad.';
+                            container.innerHTML = 'No se encontraron informes para estos clústeres y esta especialidad.';
                         }
                     })
                     .catch(error => {
@@ -288,21 +295,17 @@
                         container.innerHTML = 'Error al cargar los informes.';
                     });
             } else {
-                container.innerHTML = 'Selecciona un clúster y una especialidad.';
+                container.innerHTML = 'Selecciona al menos un clúster y una especialidad.';
             }
         }
     
-        // Abre el modal con el informe correspondiente
         function openReportModal(index) {
             currentIndex = index;
             reportContent.textContent = currentReports[currentIndex];
-    
-            // Mostrar el modal (asumiendo uso de Bootstrap 5)
             const modal = new bootstrap.Modal(document.getElementById('reportModal'));
             modal.show();
         }
     
-        // Funciones para navegar en el modal
         function showPrevReport() {
             if (currentIndex > 0) {
                 currentIndex--;
@@ -317,11 +320,9 @@
             }
         }
     
-        // Escucha los cambios en ambos selectores
         document.getElementById('cluster-select').addEventListener('change', fetchReports);
         document.getElementById('specialty-select').addEventListener('change', fetchReports);
     
-        // Escucha clicks en la lista de informes para abrir el modal
         container.addEventListener('click', function(event) {
             if (event.target.classList.contains('report-link')) {
                 event.preventDefault();
@@ -330,10 +331,10 @@
             }
         });
     
-        // Botones de navegación dentro del modal
         prevReportBtn.addEventListener('click', showPrevReport);
         nextReportBtn.addEventListener('click', showNextReport);
     </script>
+    
     
     
     <!-- especialidades -->

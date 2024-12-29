@@ -159,29 +159,35 @@ def get_reports_by_cluster(request):
     
 
 @csrf_exempt
-def get_reports_by_cluster_specialty(request):
+def get_reports_by_clusters_specialty(request):
     if request.method == 'GET':
-        cluster_id = request.GET.get('cluster_id', '').strip()
+        cluster_ids_str = request.GET.get('cluster_ids', '').strip()  # e.g. "0,1,2"
         specialty = request.GET.get('specialty', '').strip()
-        if cluster_id and specialty:
+        
+        if cluster_ids_str and specialty:
             try:
-                cluster_id = int(cluster_id)
+                # Convertir "0,1,2" a lista de enteros [0,1,2]
+                cluster_ids = [int(cid) for cid in cluster_ids_str.split(',') if cid.isdigit()]
+                
+                # Filtrar el dataframe: cluster en cluster_ids y specialty coincide
                 filtered_df = df[
-                    (df['cluster'] == cluster_id) & 
+                    (df['cluster'].isin(cluster_ids)) &
                     (df['medical_specialty'].str.strip().str.lower() == specialty.lower())
                 ]
 
                 if not filtered_df.empty:
-                    # Quita .head(5) y devuelve la lista completa
                     all_reports = filtered_df['transcription'].tolist()
                     return JsonResponse({'reports': all_reports})
                 else:
-                    return JsonResponse({'reports': [], 'message': 'No se encontraron informes para esta combinación de clúster y especialidad.'})
+                    return JsonResponse({
+                        'reports': [],
+                        'message': 'No se encontraron informes para estos clústeres y esta especialidad.'
+                    })
             except ValueError:
-                return JsonResponse({'error': 'Cluster ID inválido'}, status=400)
+                return JsonResponse({'error': 'Cluster IDs inválidos'}, status=400)
             except Exception as e:
                 print(f"Error al procesar la solicitud: {e}")
                 return JsonResponse({'error': 'Error interno del servidor'}, status=500)
         else:
-            return JsonResponse({'error': 'Cluster ID o especialidad no proporcionados'}, status=400)
+            return JsonResponse({'error': 'cluster_ids o specialty no proporcionados'}, status=400)
     return JsonResponse({'error': 'Método no permitido'}, status=405)
