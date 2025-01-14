@@ -19,45 +19,46 @@ def hello(request):
     specialties = df['medical_specialty'].unique().tolist()
 
     cluster_titles = {
-        0: "0- Medicina General",
-        1: "1- Ortopedia Síndrome del Túnel Carpiano",
-        2: "2- Notas de Progreso y SOAP",
-        3: "3- Consultas e Historial Clínico",
-        4: "4- Informes de Cirugía",
-        5: "5- Ortopedia Cervical",
-        6: "6- Nefrología",
-        7: "7- Neurología",
-        8: "8- Cirugía General",
-        9: "9- Procedimientos Cardiovasculares",
-        10:"10 Cirugías de Hombro y Cuerpos Extraños",
-        11:"11- Manejo del Dolor",
-        12:"12- Estudios Pulmonares y Pruebas de Esfuerzo",
-        13:"13- Condiciones Valvulares y Ecocardiogramas",
-        14:"14- Gastroenterología",
-        15:"15- Radiología",
-        16:"16- Ortopedia Extremidades Inferiores",
-        17:"17- Obstetricia/Ginecología"
-    }
+    0: "0- General Medicine",
+    1: "1- Orthopedics: Carpal Tunnel Syndrome",
+    2: "2- Progress Notes and SOAP",
+    3: "3- Consultations and Medical History",
+    4: "4- Surgery Reports",
+    5: "5- Cervical Orthopedics",
+    6: "6- Nephrology",
+    7: "7- Neurology",
+    8: "8- General Surgery",
+    9: "9- Cardiovascular Procedures",
+    10: "10- Shoulder Surgeries and Foreign Bodies",
+    11: "11- Pain Management",
+    12: "12- Pulmonary Studies and Stress Tests",
+    13: "13- Valvular Conditions and Echocardiograms",
+    14: "14- Gastroenterology",
+    15: "15- Radiology",
+    16: "16- Orthopedics: Lower Extremities",
+    17: "17- Obstetrics/Gynecology"
+}
+
 
     cluster_analysis = {
-        0: "Este cluster agrupa textos relacionados con la medicina general, cubriendo una variedad de temas como exámenes físicos, enfermedades respiratorias y otras condiciones comunes que se encuentran en la práctica general. Las menciones de 'office' y 'exam' sugieren que muchos de estos documentos podrían ser registros de consultas médicas generales.",
-        1: "Los documentos en este cluster están relacionados con la ortopedia, específicamente con procedimientos y condiciones como el síndrome del túnel carpiano, liberaciones de ligamentos y procedimientos endoscópicos ortopédicos.",
-        2: "Este cluster contiene documentos que son notas de progreso o registros SOAP (Subjective, Objective, Assessment, Plan). Los temas incluyen diabetes, hipertensión y otros aspectos dietéticos y de peso, que son comunes en las notas de seguimiento de pacientes.",
-        3: "Este cluster agrupa documentos de consultas y exámenes de historia clínica y física. Los temas de pérdida de peso, bypass gástrico y dolor sugieren que se trata de consultas detalladas sobre el historial médico del paciente y evaluaciones físicas.",
-        4: "Los documentos en este cluster están relacionados con informes de cirugía y transcripciones médicas. Las características indican un enfoque en la calidad y precisión de las transcripciones y reportes quirúrgicos.",
-        5: "Este cluster también se enfoca en ortopedia con un enfoque en condiciones y procedimientos de la columna cervical, como discectomías y fusiones.",
-        6: "Los documentos en este cluster están relacionados con la nefrología, abordando condiciones renales, fallas, procedimientos como la colocación de stents y catéteres, y la hemodiálisis.",
-        7: "Este cluster se centra en neurología, incluyendo procedimientos y condiciones neurológicas como craniotomías, hematomas subdurales y debilidades musculares. El uso de MRI y CT indica un enfoque en imágenes radiológicas neurológicas.",
-        8: "Este cluster incluye documentos relacionados con diversas cirugías, desde urológicas y herdesde urológicas y hernias hasta biopsias, cirugías nasales, y procedimientos en gastroenterología y otorrinolaringología.",
-        9: "Los documentos en este cluster están enfocados en el sistema cardiovascular y pulmonar, incluyendo procedimientos como cateterismos arteriales, angiografías, y otros estudios cardiacos y pulmonares.",
-        10: "Este cluster trata sobre procedimientos quirúrgicos, específicamente relacionados con la eliminación de cuerpos extraños, reparaciones del manguito rotador, desbridamientos y cirugías de hombro.",
-        11: "Los documentos en este cluster se centran en el manejo del dolor, incluyendo inyecciones epidurales, estudios de conducción nerviosa y manejo del dolor mediante diversas técnicas.",
-        12: "Este cluster también se centra en el sistema cardiovascular y pulmonar, con documentos que mencionan pruebas de esfuerzo, broncoscopias y otros estudios pulmonares.",
-        13: "Este cluster abarca temas del sistema cardiovascular y pulmonar, con un enfoque en condiciones valvulares como fibrilación auricular, regurgitaciones y ecocardiogramas.",
-        14: "Los documentos en este cluster están relacionados con la gastroenterología, abordando procedimientos como colonoscopias, laparoscopias, y cirugías de vesícula biliar y apendicectomías.",
-        15: "Este cluster está enfocado en radiología, incluyendo estudios de CT en abdomen y pelvis, con y sin contraste, y otros estudios radiológicos.",
-        16: "Este cluster trata sobre ortopedia, específicamente en extremidades inferiores, abarcando fracturas, fijaciones de articulaciones, y procedimientos en rodillas, pies y tobillos.",
-        17: "Los documentos en este cluster están relacionados con obstetricia y ginecología, incluyendo temas de embarazo, procedimientos uterinos y vaginales, y cirugías ginecológicas."
+        0: "This cluster groups texts related to general medicine, covering a variety of topics such as physical exams, respiratory diseases, and other common conditions encountered in general practice. Mentions of 'office' and 'exam' suggest that many of these documents could be records of general medical consultations.",
+        1: "The documents in this cluster are related to orthopedics, specifically addressing procedures and conditions such as carpal tunnel syndrome, ligament releases, and orthopedic endoscopic procedures.",
+        2: "This cluster contains documents that are progress notes or SOAP records (Subjective, Objective, Assessment, Plan). Topics include diabetes, hypertension, and other dietary and weight-related aspects, which are common in patient follow-up notes.",
+        3: "This cluster groups documents from consultations and medical history and physical exams. Topics such as weight loss, gastric bypass, and pain suggest that these are detailed consultations regarding the patient's medical history and physical assessments.",
+        4: "The documents in this cluster are related to surgical reports and medical transcriptions. The characteristics indicate a focus on the quality and accuracy of the transcriptions and surgical reports.",
+        5: "This cluster also focuses on orthopedics, with an emphasis on cervical spine conditions and procedures, such as discectomies and fusions.",
+        6: "The documents in this cluster are related to nephrology, addressing kidney conditions, failures, procedures such as stent and catheter placement, and hemodialysis.",
+        7: "This cluster focuses on neurology, including neurological procedures and conditions such as craniotomies, subdural hematomas, and muscle weaknesses. The use of MRI and CT suggests an emphasis on neurological radiological imaging.",
+        8: "This cluster includes documents related to various surgeries, ranging from urological procedures and hernias to biopsies, nasal surgeries, and procedures in gastroenterology and otorhinolaryngology",
+        9: "The documents in this cluster focus on the cardiovascular and pulmonary systems, including procedures such as arterial catheterizations, angiographies, and other cardiac and pulmonary studies.",
+        10: "This cluster covers surgical procedures, specifically related to foreign body removal, rotator cuff repairs, debridements, and shoulder surgeries.",
+        11: "The documents in this cluster center on pain management, including epidural injections, nerve conduction studies, and pain management using various techniques",
+        12: "This cluster also focuses on the cardiovascular and pulmonary systems, with documents mentioning stress tests, bronchoscopies, and other pulmonary studies.",
+        13: "This cluster encompasses topics on the cardiovascular and pulmonary systems, with a focus on valvular conditions such as atrial fibrillation, regurgitations, and echocardiograms.",
+        14: "The documents in this cluster are related to gastroenterology, addressing procedures such as colonoscopies, laparoscopies, gallbladder surgeries, and appendectomies.",
+        15: "This cluster is focused on radiology, including CT studies of the abdomen and pelvis, with and without contrast, and other radiological studies.",
+        16: "This cluster pertains to orthopedics, specifically the lower extremities, covering fractures, joint fixations, and procedures on knees, feet, and ankles.",
+        17: "The documents in this cluster are related to obstetrics and gynecology, including topics on pregnancy, uterine and vaginal procedures, and gynecological surgeries."
     }
     common_clusters_by_specialty = get_common_clusters_by_specialty(df)
     context = {
@@ -158,46 +159,97 @@ def get_reports_by_cluster(request):
 
     
 @csrf_exempt
-def get_reports_by_clusters_specialty(request):
+def get_reports_by_clusters_and_specialties(request):
     if request.method == 'GET':
-        cluster_ids_str = request.GET.get('cluster_ids', '').strip()  # e.g. "0,1,2" o "ALL"
-        specialty = request.GET.get('specialty', '').strip()
-        
-        if cluster_ids_str and specialty:
-            try:
-                # Filtramos primero por especialidad
-                base_df = df[df['medical_specialty'].str.strip().str.lower() == specialty.lower()]
+        clusters_str = request.GET.get('clusters', '').strip()   # e.g. "0,1,2" ó "ALL"
+        specialties_str = request.GET.get('specialties', '').strip()  # e.g. "cardiology,gastroenterology" ó "ALL"
 
-                if cluster_ids_str == "ALL":
-                    # "ALL" significa que no filtramos por cluster, sino que tomamos todos los cluster de base_df
-                    filtered_df = base_df
+        # Parámetros de paginación (por defecto page=1, page_size=20)
+        page = int(request.GET.get('page', 1))
+        page_size = int(request.GET.get('page_size', 20))
+
+        if clusters_str and specialties_str:
+            try:
+                # Manejo de "ALL" para clusters
+                if clusters_str == "ALL":
+                    cluster_ids = None
                 else:
-                    # Convertir "0,1,2" a [0,1,2]
-                    cluster_ids = [int(cid) for cid in cluster_ids_str.split(',') if cid.isdigit()]
-                    filtered_df = base_df[ base_df['cluster'].isin(cluster_ids) ]
-                
-                if not filtered_df.empty:
-                    # Agrupamos por cluster para devolver el formato { "clusters_reports": { "0": [...], "1": [...]} }
-                    clusters_dict = {}
-                    # Averiguamos todos los cluster únicos que hay en filtered_df
-                    cluster_ids_unique = filtered_df['cluster'].unique()
-                    
-                    for cid in cluster_ids_unique:
-                        cluster_specific_df = filtered_df[filtered_df['cluster'] == cid]
-                        clusters_dict[str(cid)] = cluster_specific_df['transcription'].tolist()
-                    
-                    return JsonResponse({'clusters_reports': clusters_dict})
+                    # Convierte "0,1,2" a [0,1,2]
+                    cluster_ids = [int(cid) for cid in clusters_str.split(',') if cid.isdigit()]
+
+                # Manejo de "ALL" para specialties
+                if specialties_str == "ALL":
+                    selected_specialties = None
                 else:
+                    # p.ej. "cardiology,gastroenterology" => ["cardiology","gastroenterology"]
+                    selected_specialties = [s.strip().lower() for s in specialties_str.split(',')]
+
+                # 1. Empezamos con df completo
+                filtered_df = df
+
+                # 2. Filtro por clusters si no es ALL
+                if cluster_ids is not None:
+                    filtered_df = filtered_df[filtered_df['cluster'].isin(cluster_ids)]
+
+                # 3. Filtro por especialidades si no es ALL
+                if selected_specialties is not None:
+                    filtered_df = filtered_df[
+                        filtered_df['medical_specialty'].str.strip().str.lower().isin(selected_specialties)
+                    ]
+
+                # Si no hay datos
+                if filtered_df.empty:
                     return JsonResponse({
                         'clusters_reports': {},
-                        'message': 'No se encontraron informes para estos clústeres y esta especialidad.'
+                        'message': 'No se encontraron informes para esos clústeres y especialidades.'
                     })
-            except ValueError:
-                return JsonResponse({'error': 'Cluster IDs inválidos'}, status=400)
-            except Exception as e:
-                print(f"Error al procesar la solicitud: {e}")
-                return JsonResponse({'error': 'Error interno del servidor'}, status=500)
-        else:
-            return JsonResponse({'error': 'cluster_ids o specialty no proporcionados'}, status=400)
-    return JsonResponse({'error': 'Método no permitido'}, status=405)
 
+                # 4. Ordenamos por 'cluster' para que salgan primero todos los informes del cluster más bajo
+                filtered_df = filtered_df.sort_values(by='cluster', ascending=True)
+
+                # 5. Unificamos informes en una sola lista, indicando a qué cluster pertenecen
+                all_items = []
+                for _, row in filtered_df.iterrows():
+                    all_items.append({
+                        'cluster': row['cluster'],
+                        'report': row['transcription']
+                    })
+
+                # 6. Paginación manual
+                import math
+                total_results = len(all_items)
+                total_pages = math.ceil(total_results / page_size)
+                # Ajustamos página si excede el rango
+                if total_pages > 0 and page > total_pages:
+                    page = total_pages
+
+                start = (page - 1) * page_size
+                end = start + page_size
+                paginated_slice = all_items[start:end]
+
+                # 7. Reconstruimos clusters_reports sólo con la parte paginada
+                clusters_dict = {}
+                for item in paginated_slice:
+                    cid = str(item['cluster'])
+                    if cid not in clusters_dict:
+                        clusters_dict[cid] = []
+                    clusters_dict[cid].append(item['report'])
+
+                # 8. Construimos la respuesta con metadatos
+                response_data = {
+                    'clusters_reports': clusters_dict,
+                    'page': page,
+                    'page_size': page_size,
+                    'total_pages': total_pages,
+                    'total_results': total_results,
+                    'has_next': page < total_pages,
+                    'has_previous': page > 1
+                }
+
+                return JsonResponse(response_data)
+            except Exception as e:
+                return JsonResponse({'error': str(e)}, status=500)
+        else:
+            return JsonResponse({'error': 'clusters o specialties no proporcionados'}, status=400)
+    else:
+        return JsonResponse({'error': 'Método no permitido'}, status=405)

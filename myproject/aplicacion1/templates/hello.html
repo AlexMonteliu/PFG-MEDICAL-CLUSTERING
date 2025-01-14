@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aplicacion Medica</title>
+    <title>Medical Aplication</title>
     {% load static %}
     <link href="{% static 'css/styles.css'%}" rel="stylesheet" />
     <!-- Favicon-->
@@ -30,12 +30,12 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-              <li class="nav-item"><a class="nav-link" href="#preescripcion">informe</a></li>
+              <li class="nav-item"><a class="nav-link" href="#preescripcion">Report</a></li>
               <li class="nav-item"><a class="nav-link" href="#Clusters">Clusters</a></li>
-              <li class="nav-item"><a class="nav-link" href="#Especialidades">Especialidades y Clúster</a></li>
-              <li class="nav-item"><a class="nav-link" href="#Visualizacion">Analisis contenido Cluster</a></li>
-              <li class="nav-item"><a class="nav-link" href="#VisualizacionEspecialidades">Visualizacion Especialidades</a></li>
-              <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Especialidades">Speciality and cluster</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Visualizacion">Cluster Content Analisis</a></li>
+              <li class="nav-item"><a class="nav-link" href="#VisualizacionEspecialidades">Speciality Visualization</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contacto">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -45,17 +45,17 @@
     <!-- Masthead-->
     <header class="masthead">
         <div class="container" id="containerBienvenida">
-            <div class="masthead-subheading">Bienvenido Doctor:</div>
-            <div class="masthead-heading text-uppercase">Un placer verle de nuevo</div>
-            <a class="btn btn-primary btn-xl text-uppercase" href="#preescripcion">Continuar:</a>
+            <div class="masthead-subheading">Welcome Doctor :</div>
+            <div class="masthead-heading text-uppercase">Nice to see you again!!</div>
+            <a class="btn btn-primary btn-xl text-uppercase" href="#preescripcion">Continue :</a>
         </div>
     </header>
-    <!-- REDACTAR PRESCRIPCIÓN -->
+    <!-- Asignar PRESCRIPCIÓN -->
     <section class="page-section" id="preescripcion">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">introducir informe médico transcrito</h2>
-                <h3 class="section-subheading text-muted">Introduce tu transcripción médica para obtener la predicción del clúster, especialidad y características principales.</h3>
+                <h2 class="section-heading text-uppercase">Enter new medical report</h2>
+                <h3 class="section-subheading text-muted">Enter your medical report to receive predictions for the cluster, specialty, and key features</h3>
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -117,7 +117,7 @@
     <section class="page-section bg-light" id="Clusters">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Análisis de Clústeres</h2>
+                <h2 class="section-heading text-uppercase">Cluster Analysis</h2>
             </div>
             <div class="row">
                 {% for cluster, data in clusters_features.items %}
@@ -125,11 +125,11 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Cluster {{ cluster_titles|get_item:cluster }}</h5>
-                            <p class="card-text">1-Especialidad Principal: {{ data.specialties.0 }}</p>
-                            <p class="card-text">2-Especialidad Secundaria: {{ data.specialties.1 }}</p>
-                            <p class="card-text">3-Especialidad Terciaria: {{ data.specialties.2 }}</p>
-                            <p class="card-text">Características Principales: {{ data.features|join:", " }}</p>
-                            <h6>Análisis del Clúster:</h6>
+                            <p class="card-text">1-Main Specialty: {{ data.specialties.0 }}</p>
+                            <p class="card-text">2-Secondary Specialty: {{ data.specialties.1 }}</p>
+                            <p class="card-text">3-Tertiary Specialty: {{ data.specialties.2 }}</p>
+                            <p class="card-text">Key Features: {{ data.features|join:", " }}</p>
+                            <h6>Cluster Analysis</h6>
                             <p class="card-text">{{ cluster_analysis|get_item:cluster }}</p>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
 <section class="page-section bg-light" id="Especialidades">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase">Especialidades Médicas y sus Clústeres Más Comunes</h2>
+            <h2 class="section-heading text-uppercase">Medical Specialties and Their Most Common Clusters</h2>
         </div>
         <div class="row">
             {% for specialty, clusters in common_clusters_by_specialty.items %}
@@ -153,21 +153,21 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">{{ specialty }}</h5>
-                        <p class="card-text">Cluster Más Común: {{ clusters.0 }}</p>
+                        <p class="card-text">Most Common Cluster: {{ clusters.0 }}</p>
                         <p class="card-text">
-                            Segundo Cluster Más Común: 
+                            Second Most Common Cluster: 
                             {% if clusters|length > 1 %}
                                 {{ clusters.1 }}
                             {% else %}
-                                No disponible
+                                No avalaible
                             {% endif %}
                         </p>
                         <p class="card-text">
-                            Tercer Cluster Más Común: 
+                            Third Most Common Cluster:
                             {% if clusters|length > 2 %}
                                 {{ clusters.2 }}
                             {% else %}
-                                No disponible
+                                No available
                             {% endif %}
                         </p>
                     </div>
@@ -193,31 +193,34 @@
     <section class="page-section bg-light" id="Visualizacion">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Filtrar Informes</h2>
-                <p class="text-muted">Selecciona uno o varios clústeres y una especialidad para ver los informes asociados.</p>
+                <h2 class="section-heading text-uppercase">Filter Reports</h2>
+                <p class="text-muted">Select one or more clusters and a specialty to view the associated reports.</p>
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <label for="cluster-select">Clúster:</label>
+                    <label for="cluster-select">Cluster:</label>
                     <!-- Permite múltiples selecciones y mayor tamaño -->
                     <select id="cluster-select" class="form-control" multiple size="12">
                         <!-- Opción especial para seleccionar todos -->
-                        <option value="ALL">-- Todos los Clústeres --</option>
+                        <option value="ALL">-- All Clusters --</option>
                         {% for cluster_id, cluster_name in cluster_titles.items %}
                             <option value="{{ cluster_id }}">{{ cluster_name }}</option>
                         {% endfor %}
                     </select>
                     
-                    <small class="text-muted">Mantén presionada la tecla Ctrl (o Cmd en Mac) para seleccionar varios clústeres.</small>
+                    <small class="text-muted">Hold down the Ctrl key (or Cmd on Mac) to select multiple clusters.</small>
                 </div>
                 <div class="col-lg-6">
-                    <label for="specialty-select">Especialidad:</label>
-                    <select id="specialty-select" class="form-control">
-                        <option value="">--Selecciona una especialidad--</option>
+                    <label for="specialty-select">Speciality:</label>
+                    <select id="specialty-select" class="form-control" multiple size="6">
+                        <!-- (Opcional) Opción para seleccionar “todas” las especialidades -->
+                        <option value="ALL">-- All specialities --</option>
+                    
                         {% for specialty in specialties %}
                             <option value="{{ specialty }}">{{ specialty }}</option>
                         {% endfor %}
                     </select>
+                    <small class="text-muted">Hold down the Ctrl key (or Cmd on Mac) to select multiple specialties</small>                    
                 </div>
             </div>
     
@@ -231,46 +234,9 @@
         </div>
     </section>
     
-    <!-- Modal para visualizar cada informe individualmente -->
-    <section class="page-section bg-light" id="Visualizacion">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Filtrar Informes</h2>
-                <p class="text-muted">Selecciona uno o varios clústeres y una especialidad para ver los informes asociados.</p>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <label for="cluster-select">Clúster:</label>
-                    <!-- Permite múltiples selecciones y mayor tamaño -->
-                    <select id="cluster-select" class="form-control" multiple size="12">
-                        {% for cluster_id, cluster_name in cluster_titles.items %}
-                            <option value="{{ cluster_id }}">{{ cluster_name }}</option>
-                        {% endfor %}
-                    </select>
-                    <small class="text-muted">Mantén presionada la tecla Ctrl (o Cmd en Mac) para seleccionar varios clústeres.</small>
-                </div>
-                <div class="col-lg-6">
-                    <label for="specialty-select">Especialidad:</label>
-                    <select id="specialty-select" class="form-control">
-                        <option value="">--Selecciona una especialidad--</option>
-                        {% for specialty in specialties %}
-                            <option value="{{ specialty }}">{{ specialty }}</option>
-                        {% endfor %}
-                    </select>
-                </div>
-            </div>
+   
     
-            <div class="row mt-4">
-                <div class="col-lg-12">
-                    <div id="filtered-reports-cluster">
-                        <!-- Aquí se mostrarán los informes filtrados, agrupados por clúster -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- Modal para visualizar cada informe individualmente -->
+    <!-- Modal para visualizar cada informe individualmente NN-->
     <div class="modal fade" id="reportModal" tabindex="-1" aria-labelledby="reportModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -282,16 +248,20 @@
             <p id="reportContent">Aquí se mostrará el contenido del informe.</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" id="prevReportBtn">Anterior</button>
-            <button type="button" class="btn btn-primary" id="nextReportBtn">Siguiente</button>
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-secondary" id="prevReportBtn">Previous</button>
+            <button type="button" class="btn btn-primary" id="nextReportBtn">Next</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
     </div>
     
     <script>
-        // Array global con todos los informes (de uno o varios clústeres)
+        // Variables para manejar la paginación
+        let currentPage = 1;        // Página actual
+        let currentPageSize = 50;   // Número de informes por página
+    
+        // Array global con todos los informes (de la página actual)
         let currentReports = [];
         let currentIndex = 0;
     
@@ -301,74 +271,162 @@
         const prevReportBtn = document.getElementById('prevReportBtn');
         const nextReportBtn = document.getElementById('nextReportBtn');
     
-        // Función principal para obtener los informes agrupados
-        function fetchReports() {
-            const specialty = document.getElementById('specialty-select').value;
+        /**
+         * Función principal para obtener los informes paginados.
+         * @param {number} page - Número de página (1, 2, 3...)
+         * @param {number} pageSize - Cantidad de informes a mostrar por página
+         */
+        function fetchReports(page = 1, pageSize = 50) {
+            currentPage = page;
+            currentPageSize = pageSize;
+    
+            // 1. Tomar los clústeres seleccionados
             const clusterSelect = document.getElementById('cluster-select');
-    
-            // Obtener TODOS los clústeres seleccionados
             const selectedClusters = Array.from(clusterSelect.options)
-                .filter(option => option.selected)
-                .map(option => option.value);
+                .filter(opt => opt.selected)
+                .map(opt => opt.value);
     
+            // 2. Tomar las especialidades seleccionadas
+            const specialtySelect = document.getElementById('specialty-select');
+            const selectedSpecialties = Array.from(specialtySelect.options)
+                .filter(opt => opt.selected)
+                .map(opt => opt.value);
+    
+            // 3. Limpieza inicial del contenedor y del array global
             container.innerHTML = 'Cargando informes...';
-            currentReports = [];  // Reiniciar el array global
+            currentReports = [];
     
-            if (selectedClusters.length > 0 && specialty) {
-                const cluster_ids = selectedClusters.join(',');
-                const url = `/aplicacion1/get_reports_by_clusters_specialty/?cluster_ids=${encodeURIComponent(cluster_ids)}&specialty=${encodeURIComponent(specialty)}`;
+            // 4. Validar que al menos haya algo seleccionado
+            if (selectedClusters.length === 0) {
+                container.innerHTML = 'Selecciona al menos un clúster (o "ALL").';
+                return;
+            }
+            if (selectedSpecialties.length === 0) {
+                container.innerHTML = 'Selecciona al menos una especialidad (o "ALL").';
+                return;
+            }
     
-                fetch(url, { credentials: 'same-origin' })
-                    .then(response => response.json())
-                    .then(data => {
-                        container.innerHTML = ''; // limpiamos el contenedor
+            // 5. Manejo de la opción "ALL" en clústeres
+            let clustersParam = selectedClusters.includes("ALL")
+                ? "ALL"
+                : selectedClusters.join(',');
     
-                        if (data.clusters_reports) {
-                            // data.clusters_reports = { "0": [...], "1": [...] }
-                            const clustersReports = data.clusters_reports;
-                            
-                            // Recorremos cada clúster y sus informes
-                            for (const [clusterId, reports] of Object.entries(clustersReports)) {
-                                // Título de clúster
-                                container.innerHTML += `<h4>Clúster ${clusterId}</h4>`;
+            // 6. Manejo de la opción "ALL" en especialidades
+            let specialtiesParam = selectedSpecialties.includes("ALL")
+                ? "ALL"
+                : selectedSpecialties.join(',');
     
-                                if (reports.length > 0) {
-                                    reports.forEach((report, indexLocal) => {
-                                        // Calculamos un índice global
-                                        const globalPos = currentReports.length;
-                                        
-                                        // Metemos el informe en currentReports
-                                        currentReports.push({ clusterId, report });
+            // 7. Construir la URL al endpoint Django,
+            //    añadiendo page y page_size para pedir la porción correspondiente
+            const url = `/aplicacion1/get_reports_by_clusters_and_specialties/`
+                + `?clusters=${encodeURIComponent(clustersParam)}`
+                + `&specialties=${encodeURIComponent(specialtiesParam)}`
+                + `&page=${page}`
+                + `&page_size=${pageSize}`;
     
-                                        // Añadimos un enlace que referencia globalPos
-                                        container.innerHTML += `
-                                            <div>
-                                                <a href="#" class="report-link" data-globalpos="${globalPos}">
-                                                    Informe ${indexLocal + 1}
-                                                </a>
-                                            </div>
-                                        `;
-                                    });
-                                } else {
-                                    container.innerHTML += `<p>No hay informes para este clúster.</p>`;
-                                }
+            // 8. Hacer la petición
+            fetch(url, { credentials: 'same-origin' })
+                .then(response => response.json())
+                .then(data => {
+                    container.innerHTML = ''; // limpiamos el contenedor
+                    currentReports = [];      // reiniciamos la lista global de informes
+    
+                    if (data.clusters_reports) {
+                        // data.clusters_reports = { "0": [...], "1": [...], ...}
+                        const clustersReports = data.clusters_reports;
+    
+                        // Recorremos cada clúster devuelto
+                        for (const [clusterId, reports] of Object.entries(clustersReports)) {
+                            // Mostrar un título para el clúster
+                            container.innerHTML += `<h4>Cluster ${clusterId}</h4>`;
+    
+                            if (reports.length > 0) {
+                                reports.forEach((report, indexLocal) => {
+                                    // Calculamos un índice global
+                                    const globalPos = currentReports.length;
+                                    currentReports.push({ clusterId, report });
+    
+                                    // Mostramos un enlace que abra el modal con ese informe
+                                    container.innerHTML += `
+                                        <div>
+                                            <a href="#" class="report-link" data-globalpos="${globalPos}">
+                                                Informe ${indexLocal + 1}
+                                            </a>
+                                        </div>
+                                    `;
+                                });
+                            } else {
+                                container.innerHTML += `<p>No reports available for this cluster</p>`;
                             }
-                        } else if (data.message) {
-                            container.innerHTML = `<p>${data.message}</p>`;
-                        } else {
-                            container.innerHTML = 'No se encontraron informes.';
                         }
-                    })
-                    .catch(error => {
-                        console.error('Error al cargar los informes:', error);
-                        container.innerHTML = 'Error al cargar los informes.';
-                    });
-            } else {
-                container.innerHTML = 'Selecciona al menos un clúster y una especialidad.';
+    
+                        // Llamar a la función que maneja la navegación de páginas (botones, info, etc.)
+                        renderPaginationControls(data);
+    
+                    } else if (data.message) {
+                        container.innerHTML = `<p>${data.message}</p>`;
+                    } else {
+                        container.innerHTML = 'No reports available';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error uploading reports', error);
+                    container.innerHTML = 'Error uploading reports';
+                });
+        }
+    
+        /**
+         * Función para mostrar botones de paginación (Anterior/Siguiente)
+         * en base a la info devuelta por el backend:
+         *   data.page, data.page_size, data.total_pages, data.has_next, data.has_previous, etc.
+         */
+        function renderPaginationControls(data) {
+            let paginationDiv = document.getElementById('pagination-controls');
+            if (!paginationDiv) {
+                // Si no existe, lo creamos
+                paginationDiv = document.createElement('div');
+                paginationDiv.id = 'pagination-controls';
+                container.appendChild(paginationDiv);
+            }
+            // Limpiamos el contenido anterior
+            paginationDiv.innerHTML = '';
+    
+            // Si el backend devolvió page, page_size, total_pages, etc.:
+            const page = data.page || currentPage;
+            const totalPages = data.total_pages || 1;
+            const pageSize = data.page_size || currentPageSize;
+    
+            // Botón "Anterior"
+            if (data.has_previous) {
+                const prevBtn = document.createElement('button');
+                prevBtn.textContent = 'Anterior';
+                prevBtn.style.marginRight = '10px';
+                prevBtn.addEventListener('click', () => {
+                    fetchReports(page - 1, pageSize);
+                });
+                paginationDiv.appendChild(prevBtn);
+            }
+    
+            // Info de página
+            const infoSpan = document.createElement('span');
+            infoSpan.textContent = `Página ${page} de ${totalPages}`;
+            infoSpan.style.marginRight = '10px';
+            paginationDiv.appendChild(infoSpan);
+    
+            // Botón "Siguiente"
+            if (data.has_next) {
+                const nextBtn = document.createElement('button');
+                nextBtn.textContent = 'Siguiente';
+                nextBtn.addEventListener('click', () => {
+                    fetchReports(page + 1, pageSize);
+                });
+                paginationDiv.appendChild(nextBtn);
             }
         }
     
-        // Función para abrir el modal con un índice global
+        /**
+         * Abre el modal con el informe de índice global globalIndex.
+         */
         function openReportModal(globalIndex) {
             currentIndex = globalIndex;
             reportContent.textContent = currentReports[currentIndex].report;
@@ -376,7 +434,7 @@
             modal.show();
         }
     
-        // Botón "Anterior"
+        // Botones de navegación dentro del modal (no relacionado con la paginación general)
         function showPrevReport() {
             if (currentIndex > 0) {
                 currentIndex--;
@@ -384,7 +442,6 @@
             }
         }
     
-        // Botón "Siguiente"
         function showNextReport() {
             if (currentIndex < currentReports.length - 1) {
                 currentIndex++;
@@ -393,23 +450,32 @@
         }
     
         // Listeners
-        document.getElementById('cluster-select').addEventListener('change', fetchReports);
-        document.getElementById('specialty-select').addEventListener('change', fetchReports);
+        document.getElementById('cluster-select').addEventListener('change', () => {
+            // Cada vez que cambian clústeres, pedimos la página 1
+            fetchReports(1, currentPageSize);
+        });
+        document.getElementById('specialty-select').addEventListener('change', () => {
+            // Cada vez que cambian especialidades, pedimos la página 1
+            fetchReports(1, currentPageSize);
+        });
     
-        // Cuando el usuario hace clic en un enlace de informe
+        // Manejar clics en enlaces de informes
         container.addEventListener('click', function(event) {
             if (event.target.classList.contains('report-link')) {
                 event.preventDefault();
-    
-                // Tomamos el índice global que guardamos en data-globalpos
                 const globalPos = parseInt(event.target.dataset.globalpos, 10);
                 openReportModal(globalPos);
             }
         });
     
+        // Botones de navegación en el modal
         prevReportBtn.addEventListener('click', showPrevReport);
         nextReportBtn.addEventListener('click', showNextReport);
+    
+        // Podrías llamar a fetchReports(1,50) por defecto cuando cargas la página:
+        // fetchReports(1, 50);
     </script>
+    
     
     
     
@@ -419,7 +485,7 @@
     <section class="page-section bg-light" id="VisualizacionEspecialidades">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Visualización de Especialidades</h2>
+                <h2 class="section-heading text-uppercase">Specialty Visualization</h2>
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -432,22 +498,20 @@
     <section class="page-section" id="contacto">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Contacto</h2>
+                <h2 class="section-heading text-uppercase">Contact</h2>
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-4">
                     <img src="{% static 'assets/img/FotoMia.jpg' %}" class="img-fluid rounded-circle mb-3" alt="Profile Picture">
                 </div>
                 <div class="col-lg-8">
-                    <p class="text-muted">
-                        Soy Alejandro Monteliu López, alumno de cuarto curso de Ingeniería Informática en la Universidad Francisco de Vitoria. Actualmente, estoy trabajando como becario en la empresa Management Solutions, con la intención de incorporarme de manera completa el año que viene. Durante mi formación académica, he adquirido conocimientos sólidos en diversas áreas de la informática, incluyendo programación, bases de datos, inteligencia artificial y desarrollo de software.
-                        
-                        En mi experiencia como becario en Management Solutions, he tenido la oportunidad de aplicar estos conocimientos en proyectos reales, colaborando en el desarrollo de soluciones tecnológicas para mejorar la eficiencia y efectividad de los procesos empresariales. He trabajado en equipos multidisciplinarios, lo que me ha permitido desarrollar habilidades en la gestión de proyectos, resolución de problemas y comunicación efectiva.
-                        
-                        Además, me apasiona la tecnología y estoy siempre en busca de nuevas oportunidades para aprender y crecer profesionalmente. Participé en varios proyectos extracurriculares y hackathons, lo que me ha permitido ampliar mis competencias y mantenerme al día con las últimas tendencias y avances en el campo de la informática.
-                        
-                        Mi objetivo es seguir desarrollándome como profesional en el ámbito de la ingeniería informática, contribuyendo con mis habilidades y conocimientos a proyectos innovadores que generen un impacto positivo. Estoy comprometido con la excelencia y la mejora continua, y estoy entusiasmado por las oportunidades que el futuro me depara en este campo apasionante.
-                    </p>
+                    I am Alejandro Monteliu López, a fourth-year Computer Engineering student at Francisco de Vitoria University. Currently, I am working as an intern at Management Solutions, with the intention of joining the company full-time next year. During my academic training, I have gained solid knowledge in various areas of computer science, including programming, databases, artificial intelligence, and software development.
+
+In my experience as an intern at Management Solutions, I have had the opportunity to apply this knowledge to real-world projects, contributing to the development of technological solutions aimed at improving the efficiency and effectiveness of business processes. I have worked in multidisciplinary teams, which has allowed me to develop skills in project management, problem-solving, and effective communication.
+
+Additionally, I am passionate about technology and am always seeking new opportunities to learn and grow professionally. I have participated in several extracurricular projects and hackathons, which have helped me expand my skills and stay updated on the latest trends and advancements in the field of computer science.
+
+My goal is to continue developing as a professional in the field of computer engineering, contributing my skills and knowledge to innovative projects that create a positive impact. I am committed to excellence and continuous improvement and am excited about the opportunities the future holds in this exciting field.
                     <div class="mt-3">
                         <a href="https://www.linkedin.com/in/alejandro-monteliu-l%C3%B3pez-a74a11287//" class="btn btn-outline-primary btn-social mx-1">
                             <i class="fab fa-linkedin-in"></i>

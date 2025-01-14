@@ -118,7 +118,7 @@ def get_common_clusters_by_specialty(df):
     grouped = df.groupby('medical_specialty')['cluster'].apply(lambda x: x.value_counts().index[:3])
     
     for specialty, clusters in grouped.items():
-        common_clusters[specialty] = list(clusters) + ['No disponible'] * (3 - len(clusters))
+        common_clusters[specialty] = list(clusters) + ['No available'] * (3 - len(clusters))
         
     return common_clusters
 
@@ -156,7 +156,7 @@ def generate_specialties_pie_chart():
         specialties_count, 
         names='Especialidad', 
         values='Conteo', 
-        title='Distribución de Especialidades Médicas'
+        title='Medical Speciality Distribution'
     )
 
     # Guardar el gráfico interactivo como archivo HTML
@@ -192,13 +192,13 @@ cluster_titles = {
 }
 
 cluster_analysis = {
-    0: "Este cluster agrupa textos relacionados con la medicina general, cubriendo una variedad de temas como exámenes físicos, enfermedades respiratorias y otras condiciones comunes que se encuentran en la práctica general. Las menciones de 'office' y 'exam' sugieren que muchos de estos documentos podrían ser registros de consultas médicas generales.",
-    1: "Los documentos en este cluster están relacionados con la ortopedia, específicamente con procedimientos y condiciones como el síndrome del túnel carpiano, liberaciones de ligamentos y procedimientos endoscópicos ortopédicos.",
-    2: "Este cluster contiene documentos que son notas de progreso o registros SOAP (Subjective, Objective, Assessment, Plan). Los temas incluyen diabetes, hipertensión y otros aspectos dietéticos y de peso, que son comunes en las notas de seguimiento de pacientes.",
-    3: "Este cluster agrupa documentos de consultas y exámenes de historia clínica y física. Los temas de pérdida de peso, bypass gástrico y dolor sugieren que se trata de consultas detalladas sobre el historial médico del paciente y evaluaciones físicas.",
-    4: "Los documentos en este cluster están relacionados con informes de cirugía y transcripciones médicas. Las características indican un enfoque en la calidad y precisión de las transcripciones y reportes quirúrgicos.",
-    5: "Similar al Cluster 1, este cluster también se enfoca en ortopedia pero con un enfoque en condiciones y procedimientos de la columna cervical, como discectomías y fusiones.",
-    6: "Los documentos en este cluster están relacionados con la nefrología, abordando condiciones renales, fallas, procedimientos como la colocación de stents y catéteres, y la hemodiálisis.",
+    0: "This cluster groups texts related to general medicine, covering a variety of topics such as physical exams, respiratory illnesses, and other common conditions encountered in general practice. The mentions of 'office' and 'exam' suggest that many of these documents could be records of general medical consultations.",
+    1: "The documents in this cluster are related to orthopedics, specifically focusing on procedures and conditions such as carpal tunnel syndrome, ligament releases, and orthopedic endoscopic procedures.",
+    2: "This cluster contains documents that are progress notes or SOAP (Subjective, Objective, Assessment, Plan) records. The topics include diabetes, hypertension, and other dietary and weight-related aspects, which are common in patient follow-up notes.",
+    3: "This cluster groups documents from consultations and history and physical examinations. Topics such as weight loss, gastric bypass, and pain suggest that these are detailed consultations about the patient's medical history and physical evaluations.",
+    4: "The documents in this cluster are related to surgical reports and medical transcriptions. The features indicate a focus on the quality and accuracy of transcriptions and surgical reports.",
+    5: "Similar to Cluster 1, this cluster also focuses on orthopedics but with an emphasis on cervical spine conditions and procedures, such as discectomies and fusions.",
+    6: "The documents in this cluster are related to nephrology, addressing kidney conditions, failures, procedures such as stent and catheter placement, and hemodialysis.",
     7: "Este cluster se centra en neurología, incluyendo procedimientos y condiciones neurológicas como craniotomías, hematomas subdurales y debilidades musculares. El uso de MRI y CT indica un enfoque en imágenes radiológicas neurológicas.",
     8: "Este cluster incluye documentos relacionados con diversas cirugías, desde urológicas y hernias hasta biopsias, cirugías nasales, y procedimientos en gastroenterología y otorrinolaringología.",
     9: "Los documentos en este cluster están enfocados en el sistema cardiovascular y pulmonar, incluyendo procedimientos como cateterismos arteriales, angiografías, y otros estudios cardiacos y pulmonares.",
