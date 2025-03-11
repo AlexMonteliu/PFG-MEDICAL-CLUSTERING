@@ -1,27 +1,17 @@
-# Pfg-medical-clustering
+# PFG-MEDICAL-CLUSTERING  
+🚀 AI-powered application for clustering and managing medical transcriptions.
 
-## Application for Improving the Understanding and Management of Transcribed Medical Reports
+## 📖 Description  
+Fragmentation in healthcare and the lack of communication among specialists impact patient treatment.
+This project uses **Machine Learning** to **cluster medical reports**, improving interdisciplinary access.
 
-## Description
+## 🌟 Features  
+- 📊 **Automated classification** of medical transcriptions (18 specialties).  
+- 📈 **Interactive visualizations** and clustering insights.  
+- 🔑 **Secure authentication system** for user access.  
 
-Fragmentation in healthcare and the lack of effective communication among specialists are major issues that significantly impact the quality of treatment and patient health. This project presents an AI-powered solution that optimizes the management and retrieval of transcribed medical reports by implementing a clustering algorithm to group documents based on shared characteristics.
+## 🏛 Institution  
+**Francisco de Vitoria University**  
 
-The tool enables automated classification of new reports, supports transversal queries across specialties, and provides valuable insights for healthcare professionals to enhance decision-making and interdisciplinary coordination
-
-## Features
-
--Automated classification of medical transcriptions into 18 different specialties.
-
--Interactive data analysis and visualization for improved comprehension.
-
--Graph generation to illustrate the distribution of medical specialties.
-
--User authentication and authorization system for secure access.
-
-## Institution
-Universidad Francisco de Vitoria
-
-## Autor
-Alejandro Monteliu Lopez
-
-
+## 👨‍💻 Author  
+**Alejandro Monteliu López**  
