@@ -1,19 +1,21 @@
-# tfg
+# Pfg
 
-## [APLICACIÓN PARA LA MEJORA DE LA COMPRENSIÓN Y GESTIÓN DE TRANSCRIPCIONES MÉDICAS]
+## [Application for Improving the Understanding and Management of Transcribed Medical Reports]
 
-### Descripción
+### Description
 
-Esta aplicación tiene como objetivo mejorar la comprensión y gestión de transcripciones médicas a través de técnicas avanzadas de procesamiento de lenguaje natural (NLP) y algoritmos de clustering. La aplicación clasifica automáticamente las transcripciones médicas en diferentes especialidades médicas para facilitar su análisis y consulta.
+Fragmentation in healthcare and the lack of effective communication among specialists are major issues that significantly impact the quality of treatment and patient health. This project presents an AI-powered solution that optimizes the management and retrieval of transcribed medical reports by implementing a clustering algorithm to group documents based on shared characteristics.
 
-### Características
+The tool enables automated classification of new reports, supports transversal queries across specialties, and provides valuable insights for healthcare professionals to enhance decision-making and interdisciplinary coordination
 
-- Clasificación automática de transcripciones médicas en 18 especialidades diferentes.
-- Análisis y visualización interactiva de datos.
-- Generación de gráficos interactivos para una mejor comprensión de la distribución de las especialidades médicas.
-- Sistema de autenticación y autorización de usuarios.
+### Features
 
-### Institución:
+-Automated classification of medical transcriptions into 18 different specialties.
+-Interactive data analysis and visualization for improved comprehension.
+-Graph generation to illustrate the distribution of medical specialties.
+-User authentication and authorization system for secure access.
+
+### Institution
 Universidad Francisco de Vitoria
 
 ### Autor
