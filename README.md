@@ -11,8 +11,11 @@ The tool enables automated classification of new reports, supports transversal q
 ### Features
 
 -Automated classification of medical transcriptions into 18 different specialties.
+
 -Interactive data analysis and visualization for improved comprehension.
+
 -Graph generation to illustrate the distribution of medical specialties.
+
 -User authentication and authorization system for secure access.
 
 ### Institution
