@@ -1,5 +1,5 @@
 # PFG-MEDICAL-CLUSTERING  
-🚀 AI-powered application for clustering and managing medical transcriptions.
+🚀 AI-powered application for clustering and managing medical transcriptions .
 
 ## 📖 Description  
 Fragmentation in healthcare and the lack of communication among specialists impact patient treatment.
