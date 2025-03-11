@@ -1,4 +1,4 @@
-# Pfg
+# Pfg-medical-clustering
 
 ## Application for Improving the Understanding and Management of Transcribed Medical Reports
 
