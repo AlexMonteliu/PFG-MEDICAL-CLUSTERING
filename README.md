@@ -1,6 +1,6 @@
 # Pfg
 
-## [Application for Improving the Understanding and Management of Transcribed Medical Reports]
+## Application for Improving the Understanding and Management of Transcribed Medical Reports
 
 ### Description
 
